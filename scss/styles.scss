@@ -1,0 +1,136 @@
+@import "bourbon";
+
+$deepColor1: #4A4A80;
+$white: #ffffff;
+
+$headerFonts: 'Montserrat', sans-serif;
+$bodyFonts:  'brandon-grotesque', sans-serif;
+  
+$break-sm: 600px;
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headerFonts;
+}
+
+html, body {
+  font-family: $bodyFonts;
+  height: 100%;
+  width: 100%;
+  background-color: lighten($deepColor1, 50%);
+}
+
+header {
+  height: 100%;
+  width:100%;
+  background-color: $deepColor1;
+  @include display(flex);
+  @include flex-wrap(flex);
+  h3 {
+    font-size: 16px;
+    color: lighten($deepColor1, 50%);
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 10px;
+  }
+  img {
+    margin: 20px 10px -16px 10px;
+    @media screen and (min-width: $break_sm) {
+      margin:35px 20px -26px 20px;
+    }
+  }
+  .tagline {
+    margin:20px;
+    margin-bottom: -10px;
+    @media screen and (min-width: $break_sm) {
+      margin-top:35px;
+    }
+  }
+  nav {
+    margin:30px 20px -40px 20px;
+    @media screen and (min-width: $break_sm) {
+        margin:20px 20px 10px 20px;
+      }
+    ul {
+      display: none;
+      @media screen and (min-width: $break_sm) {
+        display: initial;
+      }
+    }  
+    li {
+      display:inline;
+      color: $white;
+      text-decoration: none;
+      font-size: 14px;
+       a {
+      text-decoration: none;
+      color: $white;
+      }
+    } 
+  }
+  i {
+    color: $white;
+    @media screen and (min-width: $break_sm) {
+      visibility: hidden;
+    }    
+  }
+
+  .logo { 
+    width: 35%;
+    z-index: 1;
+    @media screen and (min-width: $break_sm) {
+      width: 20%;
+    }      
+   }
+  .tagline { 
+    width: 60%; 
+    @media screen and (min-width: $break_sm) {
+      width: 30%;
+    }      
+  }
+  nav { 
+    width: 5%; 
+    order: -1;
+    @media screen and (min-width: $break_sm) {
+      width: 50%;
+      order: 0;
+    }      
+  }
+}
+
+.site-nav {
+  width: 240px;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  padding-left: 10px;
+  @include transform(translate(-250px, 0));
+  @include transition(transform 0.3s ease);
+  background-color: $deepColor1;
+  background-color: rgba( $deepColor1, .98 );
+  color: $white;
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+  ul {
+    list-style-type: none;
+  }
+  @media screen and (min-width: $break_sm) {
+    visibility: hidden;
+  }
+}
+
+
+
+.open {
+  @include transform(translate(0,0));
+}
+
+.main {
+  z-index: -1;
+  margin: 10px;
+}
+
+
+

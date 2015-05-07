@@ -1,7 +1,122 @@
-body.home .media-unit {
-  border: 1px solid #ccc;
-  background-color: #fff; }
-  body.home .media-unit .right {
-    border-left: 1px solid #ccc; }
-    body.home .media-unit .right h1 {
-      font-size: 24px; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif; }
+
+html, body {
+  font-family: "brandon-grotesque", sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: #ddddec; }
+
+header {
+  height: 100%;
+  width: 100%;
+  background-color: #4A4A80;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-lines: flex;
+  -moz-box-lines: flex;
+  box-lines: flex;
+  -webkit-flex-wrap: flex;
+  -moz-flex-wrap: flex;
+  -ms-flex-wrap: flex;
+  flex-wrap: flex; }
+  header h3 {
+    font-size: 16px;
+    color: #ddddec;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 10px; }
+  header img {
+    margin: 20px 10px -16px 10px; }
+    @media screen and (min-width: 600px) {
+      header img {
+        margin: 35px 20px -26px 20px; } }
+  header .tagline {
+    margin: 20px;
+    margin-bottom: -10px; }
+    @media screen and (min-width: 600px) {
+      header .tagline {
+        margin-top: 35px; } }
+  header nav {
+    margin: 30px 20px -40px 20px; }
+    @media screen and (min-width: 600px) {
+      header nav {
+        margin: 20px 20px 10px 20px; } }
+    header nav ul {
+      display: none; }
+      @media screen and (min-width: 600px) {
+        header nav ul {
+          display: initial; } }
+    header nav li {
+      display: inline;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 14px; }
+      header nav li a {
+        text-decoration: none;
+        color: #ffffff; }
+  header i {
+    color: #ffffff; }
+    @media screen and (min-width: 600px) {
+      header i {
+        visibility: hidden; } }
+  header .logo {
+    width: 35%;
+    z-index: 1; }
+    @media screen and (min-width: 600px) {
+      header .logo {
+        width: 20%; } }
+  header .tagline {
+    width: 60%; }
+    @media screen and (min-width: 600px) {
+      header .tagline {
+        width: 30%; } }
+  header nav {
+    width: 5%;
+    order: -1; }
+    @media screen and (min-width: 600px) {
+      header nav {
+        width: 50%;
+        order: 0; } }
+
+.site-nav {
+  width: 240px;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  padding-left: 10px;
+  -webkit-transform: translate(-250px, 0);
+  -moz-transform: translate(-250px, 0);
+  -ms-transform: translate(-250px, 0);
+  -o-transform: translate(-250px, 0);
+  transform: translate(-250px, 0);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  -moz-transition: -moz-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  background-color: #4A4A80;
+  background-color: rgba(74, 74, 128, 0.98);
+  color: #ffffff; }
+  .site-nav a {
+    text-decoration: none;
+    color: #ffffff; }
+  .site-nav ul {
+    list-style-type: none; }
+  @media screen and (min-width: 600px) {
+    .site-nav {
+      visibility: hidden; } }
+
+.open {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0); }
+
+.main {
+  z-index: -1;
+  margin: 10px; }
