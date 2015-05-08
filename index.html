@@ -7,13 +7,7 @@
   <!-- Set the Viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- Javascript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script> 
-    $(function(){
-      $("#headerInclude").load("includes/header.html");
-    });
-  </script> 
+ 
 
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -28,6 +22,7 @@
 </head>
 
 <body>
+
   <div class="container">
     <div id="headerInclude"></div>
 
@@ -38,5 +33,22 @@
   </div>
 
 
+
+ <!-- Javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script type="text/javascript">
+ $( document ).ready(function() {
+    // load header inlude
+    $("#headerInclude").load("includes/header.html");
+    //toggle nav
+    $('.menu-btn').click(function(){
+      $('.site-nav').toggleClass('open')
+    });
+    //append large nav
+    var $basicNav = $('.nav-list').html();
+    $('.nav-lg').append($basicNav);
+});
+</script>
 </body>
 </html>
