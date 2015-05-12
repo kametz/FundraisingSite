@@ -89,82 +89,82 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/jquery.bxslider\/bower.json": {
+	"\/js\/libraries\/jquery.bxslider\/bower.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jquery.bxslider\/bower.json",
+		"inputAbbreviatedPath": "\/js\/libraries\/jquery.bxslider\/bower.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/jquery.bxslider\/bower-min.json",
+		"outputAbbreviatedPath": "\/js\/libraries\/jquery.bxslider\/bower-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/jquery.bxslider\/images\/controls.png": {
+	"\/js\/libraries\/jquery.bxslider\/images\/controls.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2806,
-		"inputAbbreviatedPath": "\/jquery.bxslider\/images\/controls.png",
-		"outputAbbreviatedPath": "\/jquery.bxslider\/images\/controls.png",
+		"inputAbbreviatedPath": "\/js\/libraries\/jquery.bxslider\/images\/controls.png",
+		"outputAbbreviatedPath": "\/js\/libraries\/jquery.bxslider\/images\/controls.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/jquery.bxslider\/jquery.bxslider.css": {
+	"\/js\/libraries\/jquery.bxslider\/jquery.bxslider.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jquery.bxslider\/jquery.bxslider.css",
+		"inputAbbreviatedPath": "\/js\/libraries\/jquery.bxslider\/jquery.bxslider.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/jquery.bxslider\/jquery.bxslider.js": {
+	"\/js\/libraries\/jquery.bxslider\/jquery.bxslider.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jquery.bxslider\/jquery.bxslider.js",
-		"outputAbbreviatedPath": "\/jquery.bxslider\/min\/jquery.bxslider-min.js",
+		"inputAbbreviatedPath": "\/js\/libraries\/jquery.bxslider\/jquery.bxslider.js",
+		"outputAbbreviatedPath": "\/js\/libraries\/jquery.bxslider\/min\/jquery.bxslider-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/jquery.bxslider\/jquery.bxslider.min.js": {
+	"\/js\/libraries\/jquery.bxslider\/jquery.bxslider.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jquery.bxslider\/jquery.bxslider.min.js",
-		"outputAbbreviatedPath": "\/jquery.bxslider\/min\/jquery.bxslider.min-min.js",
+		"inputAbbreviatedPath": "\/js\/libraries\/jquery.bxslider\/jquery.bxslider.min.js",
+		"outputAbbreviatedPath": "\/js\/libraries\/jquery.bxslider\/min\/jquery.bxslider.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/jquery.bxslider\/plugins\/jquery.easing.1.3.js": {
+	"\/js\/libraries\/jquery.bxslider\/plugins\/jquery.easing.1.3.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jquery.bxslider\/plugins\/jquery.easing.1.3.js",
-		"outputAbbreviatedPath": "\/jquery.bxslider\/plugins\/min\/jquery.easing.1.3-min.js",
+		"inputAbbreviatedPath": "\/js\/libraries\/jquery.bxslider\/plugins\/jquery.easing.1.3.js",
+		"outputAbbreviatedPath": "\/js\/libraries\/jquery.bxslider\/plugins\/min\/jquery.easing.1.3-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/jquery.bxslider\/plugins\/jquery.fitvids.js": {
+	"\/js\/libraries\/jquery.bxslider\/plugins\/jquery.fitvids.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jquery.bxslider\/plugins\/jquery.fitvids.js",
-		"outputAbbreviatedPath": "\/jquery.bxslider\/plugins\/min\/jquery.fitvids-min.js",
+		"inputAbbreviatedPath": "\/js\/libraries\/jquery.bxslider\/plugins\/jquery.fitvids.js",
+		"outputAbbreviatedPath": "\/js\/libraries\/jquery.bxslider\/plugins\/min\/jquery.fitvids-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/jquery.bxslider\/readme.md": {
+	"\/js\/libraries\/jquery.bxslider\/readme.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -173,9 +173,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jquery.bxslider\/readme.md",
+		"inputAbbreviatedPath": "\/js\/libraries\/jquery.bxslider\/readme.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/jquery.bxslider\/readme.html",
+		"outputAbbreviatedPath": "\/js\/libraries\/jquery.bxslider\/readme.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -185,12 +185,12 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/js\/jquery.bxslider.min.js": {
+	"\/js\/libraries\/min\/jquery.bxslider.min-min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/jquery.bxslider.min.js",
-		"outputAbbreviatedPath": "\/js\/min\/jquery.bxslider.min-min.js",
+		"inputAbbreviatedPath": "\/js\/libraries\/min\/jquery.bxslider.min-min.js",
+		"outputAbbreviatedPath": "\/js\/libraries\/min\/min\/jquery.bxslider.min-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

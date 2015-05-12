@@ -29,7 +29,7 @@
         Promotions Bar
       </div>  <!--/promtions-->
 
-      <ul class="column small-12 slider bxslider">
+      <ul class="column small-12 bxslider">
         <li><img src="images/slider1.jpg" alt="#"></li>
         <li><img src="images/slider2.jpg" alt="#"></li>
         <li><img src="images/slider3.jpg" alt="#"></li>
@@ -53,7 +53,7 @@
 
  <!-- JQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="js/libraries/jquery.bxslider.min.js"></script>
+  <script src="js/libraries/jquery.bxslider/jquery.bxslider.min.js"></script>
   <script src="js/slider.js"></script>
 
   <script type="text/javascript">

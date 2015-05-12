@@ -1,1 +1,1 @@
-$(".bxslider").bxSlider({adaptiveHeight:!0,mode:"fade",auto:!0});
+$(".bxslider").bxSlider({mode:"fade",auto:!0});

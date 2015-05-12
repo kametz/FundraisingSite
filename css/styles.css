@@ -122,6 +122,13 @@ header {
   background-color: #ffffff;
   display: none; }
 
-.slider {
-  padding: 0;
-  width: 100%; }
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #666;
+  margin: -50px 5px 0 5px; }
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #000; }
+
+.bxslider {
+  padding: 0; }
