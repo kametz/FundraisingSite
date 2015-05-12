@@ -22,7 +22,7 @@
 
 <body>
 
-    <?php include("includes/header.php"); ?>
+    <?php include("includes/top_nav.php"); ?>
 
     <main class="row">
       <div class="column small-12 promotions">
