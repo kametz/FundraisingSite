@@ -30,9 +30,9 @@
 ===================================*/
 
 .bx-wrapper .bx-viewport {
-	border:  5px solid #fff;
-	left: -5px;
+	
 	background: #fff;
+	padding: 0;
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
