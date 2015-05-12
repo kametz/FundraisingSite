@@ -6,22 +6,18 @@
   
   <!-- Set the Viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
- 
 
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <script src="//use.typekit.net/anh0cme.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
-
    
   <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="css/foundation.css" class="css"> 
-  <link rel="stylesheet" href="css/normalize.css" class="css">
-  <link rel="stylesheet" href="css/jquery.bxslider.css" class="css">
+  <link rel="stylesheet" href="css/libraries/foundation.css" class="css"> 
+  <link rel="stylesheet" href="css/libraries/normalize.css" class="css">
+  <link rel="stylesheet" href="css/libraries/jquery.bxslider.css" class="css">
   <link rel="stylesheet" href="css/styles.css" class="css">  
-
 </head>
 
 <body>
@@ -31,13 +27,13 @@
     <main class="row">
       <div class="column small-12 promotions">
         Promotions Bar
-      </div>
+      </div>  <!--/promtions-->
 
       <ul class="column small-12 slider bxslider">
-        <li><img src="images/slider1.jpg"></li>
-        <li><img src="images/slider2.jpg"></li>
-        <li><img src="images/slider3.jpg"></li>
-      </ul>
+        <li><img src="images/slider1.jpg" alt="#"></li>
+        <li><img src="images/slider2.jpg" alt="#"></li>
+        <li><img src="images/slider3.jpg" alt="#"></li>
+      </ul> <!--/slider-->
 
 
       <div class="column small-12">Search</div>
@@ -57,7 +53,7 @@
 
  <!-- JQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="js/jquery.bxslider.min.js"></script>
+  <script src="js/libraries/jquery.bxslider.min.js"></script>
   <script src="js/slider.js"></script>
 
   <script type="text/javascript">

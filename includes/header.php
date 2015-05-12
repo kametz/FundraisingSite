@@ -1,24 +1,26 @@
 <header class ="row">
   <div class="column small-6 medium-3 logo">
     <i class="fa fa-bars fa-lg menu-btn"></i>
-    <a href="/gifti/index.html"><img src="images/gifti_logo_white.svg"></a>
-  </div>
+    <a href="/gifti/index.html"><img src="images/gifti_logo_white.svg" alt="Gifti Logo"></a>
+  </div> <!--/logo-->
 
-  <div class="column small-6 medium-5 tagline"><h3>Giving for All</h3></div>
+  <div class="column small-6 medium-5 tagline">
+    <h3>Giving for All</h3>
+  </div> <!--/tagline-->
 
   <nav class="icon-bar three-up top-nav">
-      <a class="item">
-        <i class="fa fa-th-large sm"></i>
-        <label>Browse Projects</label>
-      </a>
-      <a class="item">
-        <i class="fa fa-pencil sm"></i>
-        <label>Create Project</label>
-      </a>
-      <a class="item">
-        <i class="fa fa-sign-in sm"></i>
-        <label>Sign Up</label>
-      </a>
+    <a class="item">
+      <i class="fa fa-th-large sm"></i>
+      <label>Browse Projects</label>
+    </a>
+    <a class="item">
+      <i class="fa fa-pencil sm"></i>
+      <label>Create Project</label>
+    </a>
+    <a class="item">
+      <i class="fa fa-sign-in sm"></i>
+      <label>Sign Up</label>
+    </a>
   </nav>
 </header>
 
