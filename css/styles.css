@@ -150,5 +150,7 @@ header {
   width: 100%; }
 
 .slide-btn {
-  background-color: none;
   padding: 4px; }
+
+.button {
+  background-color: white; }

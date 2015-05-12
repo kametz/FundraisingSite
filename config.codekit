@@ -3956,6 +3956,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/slider1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10100,
+		"inputAbbreviatedPath": "\/images\/slider1.jpg",
+		"outputAbbreviatedPath": "\/images\/slider1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/slider2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10519,
+		"inputAbbreviatedPath": "\/images\/slider2.jpg",
+		"outputAbbreviatedPath": "\/images\/slider2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/slider3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10718,
+		"inputAbbreviatedPath": "\/images\/slider3.jpg",
+		"outputAbbreviatedPath": "\/images\/slider3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/includes\/header.php": {
 		"fileType": 8192,
 		"ignore": 0,

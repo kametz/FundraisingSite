@@ -35,10 +35,9 @@
       <div class="column small-12 slider">
         <div class="slide-viewer">
           <div class="slide-group">
-            <div class="slide slide-1"><img src="http://placehold.it/1000x430&text=photo+1"></div>
-            <div class="slide slide-2"><img src="http://placehold.it/1000x430&text=photo+2"></div>
-            <div class="slide slide-3"><img src="http://placehold.it/1000x430&text=photo+3"></div>
-            <div class="slide slide-4"><img src="http://placehold.it/1000x430&text=photo+4"></div>
+            <div class="slide slide-1"><img src="images/slider1.jpg"></div>
+            <div class="slide slide-2"><img src="images/slider2.jpg"></div>
+            <div class="slide slide-3"><img src="images/slider3.jpg"></div>
           </div>
         </div>
         <div class="buttons-container"><div class="slide-buttons"></div></div>
