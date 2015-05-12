@@ -17,10 +17,9 @@
 
    
   <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="css/app.css" class="css"> 
+  <link rel="stylesheet" href="css/foundation.css" class="css"> 
   <link rel="stylesheet" href="css/normalize.css" class="css">
-  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link rel="stylesheet" href="css/jquery.bxslider.css" class="css">
   <link rel="stylesheet" href="css/styles.css" class="css">  
 
 </head>
@@ -30,21 +29,16 @@
     <?php include("includes/header.php"); ?>
 
     <main class="row">
-      <div class="column small-12 panel promotions">Promotions Bar</div>
-
-      <div class="column small-12 slider">
-        <div class="slide-viewer">
-          <div class="slide-group">
-            <div class="slide slide-1"><img src="images/slider1.jpg"></div>
-            <div class="slide slide-2"><img src="images/slider2.jpg"></div>
-            <div class="slide slide-3"><img src="images/slider3.jpg"></div>
-          </div>
-        </div>
-        <div class="buttons-container"><div class="slide-buttons"></div></div>
+      <div class="column small-12 promotions">
+        Promotions Bar
       </div>
 
+      <ul class="column small-12 slider bxslider">
+        <li><img src="images/slider1.jpg"></li>
+        <li><img src="images/slider2.jpg"></li>
+        <li><img src="images/slider3.jpg"></li>
+      </ul>
 
-      
 
       <div class="column small-12">Search</div>
       <div class="column small-12 medium-4">Sign Up</div>
@@ -62,7 +56,8 @@
 
 
  <!-- JQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
   <script src="js/slider.js"></script>
 
   <script type="text/javascript">
@@ -71,6 +66,8 @@
       $('.menu-btn').click(function(){
         $('.side-nav').toggleClass('open')
       });  
+      //initiate slider
+      $('.bxslider').bxSlider();
     });
   </script>
 </body>

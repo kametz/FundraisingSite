@@ -28,14 +28,11 @@ header {
   }
 
   .logo {   
-    top: 12px;
-    @media screen and (min-width: $break_sm) {
-      top: 8px;
-    }  
-   }
+      top: 23px;  
+  }
 
   .tagline {
-    top: 17px;
+    top: 14px;
   }
 
   nav {
@@ -45,10 +42,12 @@ header {
     }      
   }
 
+
   .item {
-    padding: 5px;
     border-left: 1px solid lighten($deepColor1, 30%);
     background-color: $deepColor1;
+    padding: 10px;
+    height: 56px;
   }
 
   .item label {

@@ -53,21 +53,19 @@ header {
   header i.sm {
     font-size: .9em; }
   header .logo {
-    top: 12px; }
-    @media screen and (min-width: 641px) {
-      header .logo {
-        top: 8px; } }
+    top: 23px; }
   header .tagline {
-    top: 17px; }
+    top: 14px; }
   header nav {
     order: -1; }
     @media screen and (min-width: 641px) {
       header nav {
         order: 0; } }
   header .item {
-    padding: 5px;
     border-left: 1px solid #9d9dc6;
-    background-color: #4A4A80; }
+    background-color: #4A4A80;
+    padding: 10px;
+    height: 56px; }
   header .item label {
     font-size: .7em;
     font-family: "brandon-grotesque", sans-serif; }
@@ -119,38 +117,10 @@ header {
 
 .promotions {
   z-index: 4;
-  position: relative; }
+  position: relative;
+  height: 45px;
+  background-color: #ffffff; }
 
 .slider {
-  padding: 0; }
-
-.slide-viewer {
-  position: relative;
-  overflow: hidden;
-  height: 430px; }
-
-.slide-group {
-  width: 100%;
-  height: 100%;
-  position: relative; }
-
-.slide {
-  width: 100%;
-  height: 100%;
-  display: none;
-  position: absolute; }
-
-.slide:first-child {
-  display: block; }
-
-.slide-buttons {
-  margin: 0 auto; }
-
-.buttons-container {
+  padding: 0;
   width: 100%; }
-
-.slide-btn {
-  padding: 4px; }
-
-.button {
-  background-color: white; }
