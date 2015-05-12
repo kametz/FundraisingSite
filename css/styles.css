@@ -7,6 +7,12 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "montserrathairline", sans-serif; }
 
+h3 {
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: left; }
+
 html, body {
   font-family: "brandon-grotesque", sans-serif;
   height: 100%;
@@ -14,7 +20,8 @@ html, body {
   background-color: #ffffff; }
 
 header {
-  height: 100%;
+  z-index: 1000;
+  position: relative;
   width: 100%;
   background-color: #4A4A80;
   display: -webkit-box;
@@ -34,70 +41,47 @@ header {
   -webkit-box-shadow: 0px 13px 32px -5px #4a4a80;
   -moz-box-shadow: 0px 13px 32px -5px #4a4a80;
   box-shadow: 0px 13px 32px -5px #4a4a80; }
-  header h3 {
-    font-size: 16px;
+  header .menu-btn {
     color: #ffffff;
-    text-transform: uppercase;
-    text-align: left;
-    margin-left: 10px; }
-  header img {
-    margin: 20px 10px -16px 10px; }
-    @media screen and (min-width: 600px) {
-      header img {
-        margin: 35px 20px -26px 20px; } }
-  header .tagline {
-    margin: 20px;
-    margin-bottom: -10px; }
-    @media screen and (min-width: 600px) {
-      header .tagline {
-        margin-top: 35px; } }
-  header nav {
-    margin: 30px 20px -40px 20px; }
-    @media screen and (min-width: 600px) {
-      header nav {
-        margin: 20px 20px 10px 20px; } }
-    header nav ul {
-      display: none; }
-      @media screen and (min-width: 600px) {
-        header nav ul {
-          display: initial; } }
-    header nav li {
-      display: inline;
-      color: #ffffff;
-      text-decoration: none;
-      font-family: "montserrathairline", sans-serif;
-      font-size: 14px; }
-      header nav li a {
-        text-decoration: none;
-        color: #ffffff; }
+    margin-right: 6px;
+    margin-bottom: 20px; }
+    @media screen and (min-width: 641px) {
+      header .menu-btn {
+        display: none; } }
   header i {
     color: #ffffff; }
-    @media screen and (min-width: 600px) {
-      header i {
-        visibility: hidden; } }
+  header i.sm {
+    font-size: .9em; }
   header .logo {
-    width: 35%;
-    z-index: 1; }
-    @media screen and (min-width: 600px) {
+    top: 12px; }
+    @media screen and (min-width: 641px) {
       header .logo {
-        width: 20%; } }
+        top: 8px; } }
   header .tagline {
-    width: 60%; }
-    @media screen and (min-width: 600px) {
-      header .tagline {
-        width: 30%; } }
+    top: 17px; }
   header nav {
-    width: 5%;
     order: -1; }
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 641px) {
       header nav {
-        width: 50%;
         order: 0; } }
+  header .item {
+    padding: 5px;
+    border-left: 1px solid #9d9dc6;
+    background-color: #4A4A80; }
+  header .item label {
+    font-size: .7em;
+    font-family: "brandon-grotesque", sans-serif; }
+  header .top-nav {
+    display: none; }
+    @media screen and (min-width: 641px) {
+      header .top-nav {
+        display: initial;
+        font-size: 12px; } }
 
-.site-nav {
+.side-nav {
   width: 240px;
   height: 100%;
-  z-index: 0;
+  z-index: 999;
   position: absolute;
   padding-left: 10px;
   -webkit-transform: translate(-250px, 0);
@@ -111,15 +95,15 @@ header {
   background-color: #4A4A80;
   background-color: rgba(74, 74, 128, 0.98);
   color: #ffffff; }
-  .site-nav .nav-list {
+  .side-nav .nav-list {
     font-family: "montserrathairline", sans-serif; }
-  .site-nav a {
+  .side-nav a {
     text-decoration: none;
     color: #ffffff; }
-  .site-nav ul {
+  .side-nav ul {
     list-style-type: none; }
-  @media screen and (min-width: 600px) {
-    .site-nav {
+  @media screen and (min-width: 641px) {
+    .side-nav {
       visibility: hidden; } }
 
 .open {
@@ -130,5 +114,41 @@ header {
   transform: translate(0, 0); }
 
 .main {
-  z-index: -1;
+  z-index: -3;
   margin: 10px; }
+
+.promotions {
+  z-index: 4;
+  position: relative; }
+
+.slider {
+  padding: 0; }
+
+.slide-viewer {
+  position: relative;
+  overflow: hidden;
+  height: 430px; }
+
+.slide-group {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute; }
+
+.slide:first-child {
+  display: block; }
+
+.slide-buttons {
+  margin: 0 auto; }
+
+.buttons-container {
+  width: 100%; }
+
+.slide-btn {
+  background-color: none;
+  padding: 4px; }
