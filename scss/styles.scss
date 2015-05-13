@@ -15,6 +15,8 @@ $white: #ffffff;
 
 $headerFonts: 'montserrathairline', sans-serif;
 $bodyFonts:  'brandon-grotesque', sans-serif;
+$header2: 'montserrat', sans-serif;
+
   
 $break-sm: 641px;
 
@@ -36,22 +38,18 @@ html, body {
   background-color: $white;
 }
 
-@import 'header';
-
 .main {
   z-index: -3;
   margin: 10px;
 }
 
-.promotions {
-  z-index: 4;
-  position: relative;
-  height: 45px;
-  background-color: $white;
-  display: none;
-}
+@import 'header';
+@import 'footer';
+@import 'index';
 
-@import 'slider';
+
+
+
 
 
 

@@ -22,32 +22,66 @@
 
 <body>
 
-    <?php include("includes/top_nav.php"); ?>
+  <?php include("includes/top_nav.php"); ?>
 
-    <main class="row">
-      <div class="column small-12 promotions">
-        Promotions Bar
-      </div>  <!--/promtions-->
+  <main class="row">
+    <div class="column small-12 promotions">
+      Promotions Bar
+    </div>  <!--/promtions-->
 
-      <ul class="column small-12 bxslider">
-        <li><img src="images/slider1.jpg" alt="#"></li>
-        <li><img src="images/slider2.jpg" alt="#"></li>
-        <li><img src="images/slider3.jpg" alt="#"></li>
-      </ul> <!--/slider-->
+    <ul class="column small-12 bxslider">
+      <li><img src="images/slider1.jpg" title="Slider 1" /></li>
+      <li><img src="images/slider2.jpg" title="Slider 2" /></li>
+      <li><img src="images/slider3.jpg" title="Slider 3" /></li>
+    </ul> <!-- /slider-->
 
 
-      <div class="column small-12">Search</div>
-      <div class="column small-12 medium-4">Sign Up</div>
-      <div class="column small-12 medium-8">
-        <div class="row">
-          <div class="column small-12">Featured Projects</div>
-          <div class="column small-6">Project 1</div>
-          <div class="column small-6">Project 2</div>
-          <div class="column small-6">Project 3</div>
-          <div class="column small-6">Project 4</div>
-        </div>
+    <div class="column small-12 search">
+      <i class="fa fa-search"></i>  &nbsp;
+      Search for projects by interest or location
+    </div> <!-- /search -->
+
+    <div class= "signup-featured">
+      <div class="column small-12 medium-4 mp-signup">
+        <h2>Gifti is a simple and fun way to connect charities and donors</h2>
+        <form>
+          <input type="text" placeholder="name" name="name"></input>
+          <input type="text" placeholder="email" name="email"></input>
+          <input type="password" placeholder="password" name="password"></input><br />
+          <input type="submit" value="Join Now!" name="submit"></input>
+        </form>
       </div>
-    </main>
+
+
+      <div class="column small-12 medium-8 featproj">
+        <div class="row">
+          <div class="column small-12"><h2>Featured Projects</h2></div>
+          <div class="column small-6">
+            <img src="images/featured.jpg" alt="featured" class="fp-photo" />
+            <div class="fp-caption">Featured Project Headline Text</div> 
+            <hr />
+          </div>
+          <div class="column small-6">
+            <img src="images/featured.jpg" alt="featured" class="fp-photo" />
+            <div class="fp-caption">Featured Project Headline Text</div> 
+            <hr />
+          </div>
+          <div class="column small-6">
+            <img src="images/featured.jpg" alt="featured" class="fp-photo" />
+            <div class="fp-caption">Featured Project Headline Text</div> 
+            <hr />
+          </div>
+          <div class="column small-6">
+            <img src="images/featured.jpg" alt="featured" class="fp-photo" />
+            <div class="fp-caption">Featured Project Headline Text</div> 
+            <hr />
+          </div>
+        </div> 
+      </div> <!-- /featured projects -->
+    </div> <!-- /row sign up featured -->
+  </main>
+
+  <?php include("includes/footer.php"); ?>
 
 
 

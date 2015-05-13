@@ -19,6 +19,10 @@ html, body {
   width: 100%;
   background-color: #ffffff; }
 
+.main {
+  z-index: -3;
+  margin: 10px; }
+
 header {
   z-index: 1000;
   position: relative;
@@ -111,9 +115,21 @@ header {
   -o-transform: translate(0, 0);
   transform: translate(0, 0); }
 
-.main {
-  z-index: -3;
-  margin: 10px; }
+footer {
+  background-color: #4A4A80;
+  color: #ffffff;
+  padding-top: 10px;
+  margin-top: 60px; }
+  footer .social {
+    display: none; }
+    @media screen and (min-width: 641px) {
+      footer .social {
+        display: initial; } }
+  footer a {
+    color: #ffffff;
+    text-decoration: none; }
+  footer ul {
+    list-style-type: none; }
 
 .promotions {
   z-index: 4;
@@ -132,3 +148,45 @@ header {
 
 .bxslider {
   padding: 0; }
+
+.search {
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: -40px;
+  font-size: 1.2em; }
+  @media screen and (min-width: 641px) {
+    .search {
+      font-size: 1.6em; } }
+
+.mp-signup {
+  display: none; }
+  @media screen and (min-width: 641px) {
+    .mp-signup {
+      display: initial;
+      background-color: #4A4A80;
+      margin-top: 30px;
+      padding-bottom: 30px;
+      padding-top: 10px;
+      text-align: center; }
+      .mp-signup h2 {
+        color: #ffffff;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: "montserrat", sans-serif;
+        font-size: 1.2em;
+        font-weight: 400;
+        letter-spacing: 1px; } }
+    @media screen and (min-width: 641px) and (min-width: 641px) and (max-width: 788px) {
+      .mp-signup h2 {
+        font-size: .9em; } }
+  @media screen and (min-width: 641px) {
+      .mp-signup form {
+        margin-top: 20px; }
+      .mp-signup input {
+        margin: 5px; }
+      .mp-signup input[type="submit"] {
+        margin-top: 15px; } }
