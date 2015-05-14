@@ -21,7 +21,6 @@
 </head>
 
 <body>
-
   <?php include("includes/top_nav.php"); ?>
 
   <main class="row">
@@ -34,7 +33,6 @@
       <li><img src="images/slider2.jpg" title="Slider 2" /></li>
       <li><img src="images/slider3.jpg" title="Slider 3" /></li>
     </ul> <!-- /slider-->
-
 
     <div class="column small-12 search">
       <i class="fa fa-search"></i>  &nbsp;
@@ -50,12 +48,11 @@
           <input type="password" placeholder="password" name="password"></input><br />
           <input type="submit" value="Join Now!" name="submit"></input>
         </form>
-      </div>
-
+      </div> <!-- /sign up -->
 
       <div class="column small-12 medium-8 featproj">
+        <h2>Featured Projects</h2>
         <div class="row">
-          <div class="column small-12"><h2>Featured Projects</h2></div>
           <div class="column small-6">
             <img src="images/featured.jpg" alt="featured" class="fp-photo" />
             <div class="fp-caption">Featured Project Headline Text</div> 
@@ -76,29 +73,19 @@
             <div class="fp-caption">Featured Project Headline Text</div> 
             <hr />
           </div>
-        </div> 
-      </div> <!-- /featured projects -->
+        </div> <!-- /featured projects thumbnails -->
+      </div> <!-- /featured projects container  -->
     </div> <!-- /row sign up featured -->
   </main>
 
   <?php include("includes/footer.php"); ?>
 
-
-
  <!-- JQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/libraries/jquery.bxslider/jquery.bxslider.min.js"></script>
   <script src="js/slider.js"></script>
+  <script src="js/nav.js"></script>
 
-  <script type="text/javascript">
-   $( document ).ready(function() {
-      //toggle nav
-      $('.menu-btn').click(function(){
-        $('.side-nav').toggleClass('open')
-      });  
-      //initiate slider
-      $('.bxslider').bxSlider();
-    });
-  </script>
+  
 </body>
 </html>

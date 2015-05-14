@@ -1,0 +1,33 @@
+.browse {
+  .search {
+    margin: 25px 0;
+  }
+}
+
+$ltgray: #eaeaea;
+
+.browse-project {
+  .flickr {
+    img {
+      margin-bottom:-25px;
+    }
+    color: $ltgray;
+    font-size: .5em;
+    a {
+      text-decoration: none;
+      color: $ltgray;
+    }
+  }
+  h4 {
+    margin-bottom: -10px;
+  }
+  h5 {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+.paginate {
+  text-align: center;
+  margin-bottom: 15px;
+}

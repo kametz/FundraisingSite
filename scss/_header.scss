@@ -37,6 +37,9 @@ header {
 
   nav {
     order: -1;
+    a {
+      text-decoration: none;
+    }
     @media screen and (min-width: $break_sm) {
       order: 0;
     }      

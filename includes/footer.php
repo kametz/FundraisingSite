@@ -9,7 +9,7 @@
     </ul>
   </div> <!-- /social -->
 
-  <div class="column small-6 medium-4 bottom-nav">
+  <div class="column small-8 medium-4 bottom-nav">
     <ul>
       <li><a href="">About</a></li>
       <li><a href="">FAQ</a></li>
@@ -19,11 +19,9 @@
     </ul>
   </div> <!-- /bottom-nav -->
 
-  <div class="column small-6 medium-2 footer-logo">
-    <a href="/gifti/index.php">
-      <img src="images/gifti_logo_white.svg" alt="Gifti Logo">
+  <div class="column small-4 medium-2 footer-logo">
+    <a href="http://www.kellymetzler.com/gifti/index.php">
+      <img src="http://www.kellymetzler.com/gifti/images/gifti_logo_white.svg" alt="Gifti Logo" />
     </a>
-  </div> <!-- /logo -->
-
-  
+  </div> <!-- /logo --> 
 </footer>

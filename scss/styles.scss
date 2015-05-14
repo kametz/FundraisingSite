@@ -12,11 +12,11 @@
 
 $deepColor1: #4A4A80;
 $white: #ffffff;
+$ltgray: #eaeaea;
 
 $headerFonts: 'montserrathairline', sans-serif;
 $bodyFonts:  'brandon-grotesque', sans-serif;
 $header2: 'montserrat', sans-serif;
-
   
 $break-sm: 641px;
 
@@ -46,6 +46,8 @@ html, body {
 @import 'header';
 @import 'footer';
 @import 'index';
+@import 'browse';
+@import 'detail';
 
 
 

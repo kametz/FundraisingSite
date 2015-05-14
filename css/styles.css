@@ -62,6 +62,8 @@ header {
     top: 14px; }
   header nav {
     order: -1; }
+    header nav a {
+      text-decoration: none; }
     @media screen and (min-width: 641px) {
       header nav {
         order: 0; } }
@@ -117,9 +119,7 @@ header {
 
 footer {
   background-color: #4A4A80;
-  color: #ffffff;
-  padding-top: 10px;
-  margin-top: 60px; }
+  color: #ffffff; }
   footer .social {
     display: none; }
     @media screen and (min-width: 641px) {
@@ -130,6 +130,9 @@ footer {
     text-decoration: none; }
   footer ul {
     list-style-type: none; }
+
+.footer-logo {
+  margin-top: 10px; }
 
 .promotions {
   z-index: 4;
@@ -161,6 +164,9 @@ footer {
     .search {
       font-size: 1.6em; } }
 
+.signup-featured {
+  margin-bottom: 30px; }
+
 .mp-signup {
   display: none; }
   @media screen and (min-width: 641px) {
@@ -168,7 +174,7 @@ footer {
       display: initial;
       background-color: #4A4A80;
       margin-top: 30px;
-      padding-bottom: 30px;
+      padding-bottom: 20px;
       padding-top: 10px;
       text-align: center; }
       .mp-signup h2 {
@@ -190,3 +196,37 @@ footer {
         margin: 5px; }
       .mp-signup input[type="submit"] {
         margin-top: 15px; } }
+
+.browse .search {
+  margin: 25px 0; }
+
+.browse-project .flickr {
+  color: #eaeaea;
+  font-size: .5em; }
+  .browse-project .flickr img {
+    margin-bottom: -25px; }
+  .browse-project .flickr a {
+    text-decoration: none;
+    color: #eaeaea; }
+.browse-project h4 {
+  margin-bottom: -10px; }
+.browse-project h5 {
+  margin: 10px 0;
+  text-align: center; }
+
+.paginate {
+  text-align: center;
+  margin-bottom: 15px; }
+
+.detail .bx-wrapper .bx-pager {
+  bottom: -95px; }
+.detail .bx-wrapper .bx-pager a {
+  border: solid #ccc 1px;
+  display: block;
+  margin: 0 5px;
+  padding: 3px; }
+.detail .bx-wrapper .bx-pager a:hover,
+.detail .bx-wrapper .bx-pager a.active {
+  border: solid #5280DD 1px; }
+.detail .bx-wrapper {
+  margin-bottom: 120px; }

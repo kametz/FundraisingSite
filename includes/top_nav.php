@@ -1,7 +1,7 @@
 <header class ="row">
   <div class="column small-6 medium-3 logo">
     <i class="fa fa-bars fa-lg menu-btn"></i>
-    <a href="/gifti/index.php"><img src="images/gifti_logo_white.svg" alt="Gifti Logo"></a>
+    <a href="http://www.kellymetzler.com/gifti/index.php"><img src="http://www.kellymetzler.com/gifti/images/gifti_logo_white.svg" alt="Gifti Logo"></a>
   </div> <!--/logo-->
 
   <div class="column small-6 medium-5 tagline">
@@ -9,7 +9,7 @@
   </div> <!--/tagline-->
 
   <nav class="icon-bar three-up top-nav">
-    <a class="item">
+    <a class="item" href="http://www.kellymetzler.com/gifti/assets/browse.php">
       <i class="fa fa-th-large sm"></i>
       <label>Browse Projects</label>
     </a>
@@ -27,7 +27,7 @@
 <div class="side-nav">
   <h3>Menu</h3>
     <ul>
-      <li><a href="#">Browse Projects</a> </li>
+      <li><a href="assets/browse.php">Browse Projects</a> </li>
       <li><a href="#">Create Project</a> </li>
       <li><a href="#">Sign Up</a> </li>
     </ul>
