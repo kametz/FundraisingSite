@@ -27,7 +27,7 @@
 <div class="side-nav">
   <h3>Menu</h3>
     <ul>
-      <li><a href="assets/browse.php">Browse Projects</a> </li>
+      <li><a href="http://www.kellymetzler.com/gifti/assets/browse.php">Browse Projects</a> </li>
       <li><a href="#">Create Project</a> </li>
       <li><a href="#">Sign Up</a> </li>
     </ul>

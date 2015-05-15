@@ -218,15 +218,7 @@ footer {
   text-align: center;
   margin-bottom: 15px; }
 
-.detail .bx-wrapper .bx-pager {
-  bottom: -95px; }
-.detail .bx-wrapper .bx-pager a {
-  border: solid #ccc 1px;
-  display: block;
-  margin: 0 5px;
-  padding: 3px; }
-.detail .bx-wrapper .bx-pager a:hover,
-.detail .bx-wrapper .bx-pager a.active {
-  border: solid #5280DD 1px; }
-.detail .bx-wrapper {
-  margin-bottom: 120px; }
+.detail .donate {
+  text-align: center; }
+.detail .project-description a {
+  text-decoration: none; }

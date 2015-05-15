@@ -21,11 +21,13 @@
 
   <?php include("../includes/top_nav.php"); ?>
 
-  <main class="row detail">
+  <main class="detail row">
+
     <div class="column small-12">
-      <p><em>< back </em></p>
-      <h2>Help Puppies Learn To Read!</h2></div>
+      <p><em>&lt; back </em></p>
+      <h2>Help Puppies Learn To Read!</h2>
     </div>
+
     <div class="column small-12 medium-7">
       <ul class="bxslider">
         <li><img src="../images/detail/detail-1.jpg" /></li>
@@ -41,11 +43,44 @@
           <img src="../images/detail/thumbs/detail-thumb-3.jpg" /></a>
       </div>
     </div> <!-- /slider -->
-    <div class="column small-12 medium-5">
+
+    <div class="column small-12 medium-5 project-description">
       <p>We must ask: why can’t puppies read? Puppy kitty ipsum dolor sit good dog bird bird seed parakeet. Parakeet feathers good boy right paw aquatic pet gate run play meow tongue. Parrot tongue fur aquatic cockatiel bark canary parakeet chirp. Dragging toy Snowball parrot tail kitten water stripes sit commands. Pet mouse aquatic tabby turtle ball chow whiskers finch hamster critters. Commands Fido furry Spike canary slobbery bed good boy running parrot walk food. Whiskers bed dog Tigger brush collar water right paw bird seed.Water nest dragging kitty scratch bird seed behavior. </p>
 
       <p>Fido paws tail puppy kibble feathers water foot parakeet whiskers water dog right paw. Hamster slobbery Mittens bird food slobbery chow foot Mittens stay smooshy cockatiel play dead cage crate parakeet feathers tail aquatic lick. </p>
-    </div>
+
+      <a href="cart5.php">
+        <div class="donate">
+          <hr />
+          <h5>Donate $5</h5>
+          <hr />
+        </div>
+      </a>
+
+      <a href="cart25.php">
+        <div class="donate">
+          <hr />
+          <h5>Donate $25</h5>
+          <hr />
+        </div>
+      </a>
+
+      <a href="cart100.php">
+        <div class="donate">
+          <hr />
+          <h5>Donate $100</h5>
+          <hr />
+        </div>
+      </a>      
+    </div> <!-- /project description -->
+
+    <div class="column small-12"><hr /></div>
+    <div class="column small-12 comments">
+      <h4>Comments</h4>
+      <h6>Billy said:</h6>
+      <p>What on earth is going on here?  I don't understand
+        the point of this at all.</p>
+    </div><!-- /comments -->
   </main>
 
   <?php include("../includes/footer.php"); ?>
