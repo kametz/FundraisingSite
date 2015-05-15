@@ -13,7 +13,7 @@
       <i class="fa fa-th-large sm"></i>
       <label>Browse Projects</label>
     </a>
-    <a class="item">
+    <a class="item" href="http://www.kellymetzler.com/gifti/assets/howto.php">
       <i class="fa fa-pencil sm"></i>
       <label>Create Project</label>
     </a>
