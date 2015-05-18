@@ -119,7 +119,9 @@ header {
 
 footer {
   background-color: #4A4A80;
-  color: #ffffff; }
+  color: #ffffff;
+  z-index: 997;
+  position: relative; }
   footer .social {
     display: none; }
     @media screen and (min-width: 641px) {
@@ -207,12 +209,15 @@ footer {
     margin-bottom: -25px; }
   .browse-project .flickr a {
     text-decoration: none;
-    color: #eaeaea; }
+    color: #eaeaea;
+    margin-left: 5px; }
 .browse-project h4 {
   margin-bottom: -10px; }
 .browse-project h5 {
   margin: 10px 0;
-  text-align: center; }
+  text-align: center;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea; }
 
 .paginate {
   text-align: center;
@@ -223,5 +228,43 @@ footer {
 .detail .project-description a {
   text-decoration: none; }
 
-.howto h5 {
-  text-align: center; }
+.create-project h5 {
+  text-align: center;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea; }
+.create-project .project_title {
+  width: 100%;
+  margin-bottom: 15px; }
+.create-project input, .create-project textarea, .create-project select {
+  width: 100%;
+  margin-bottom: 15px; }
+.create-project textarea {
+  height: 200px; }
+.create-project form {
+  display: block; }
+.create-project .input-box {
+  position: relative; }
+  .create-project .input-box input {
+    display: block;
+    padding: 10px 10px 10px 20px; }
+  .create-project .input-box .unit {
+    position: absolute;
+    display: block;
+    left: 5px;
+    top: 7px;
+    z-index: 9; }
+.create-project #success {
+  display: none;
+  background-color: #ffffff;
+  height: 700px;
+  max-width: 1000px;
+  position: absolute;
+  top: 82px;
+  z-index: 996; }
+  @media screen and (min-width: 641px) {
+    .create-project #success {
+      height: 520px; } }
+.create-project #success_message {
+  background-color: #bdbdd9;
+  margin: 50px auto;
+  position: relative; }

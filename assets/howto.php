@@ -4,26 +4,14 @@
   <meta charset="UTF-8">
   <title>Gifti: Giving for All</title>
   
-  <!-- Set the Viewport -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <script src="//use.typekit.net/anh0cme.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
-   
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="../css/libraries/foundation.css" class="css"> 
-  <link rel="stylesheet" href="/]../css/libraries/normalize.css" class="css">
-  <link rel="stylesheet" href="../css/styles.css" class="css">  
+  <?php include("../includes/head.php"); ?> 
 </head>
 
 <body>
 
   <?php include("../includes/top_nav.php"); ?>
 
-  <main class="row howto">
+  <main class="row create-project">
     <div class="column small-12">
       <h2>How To Create Your Gifti Project</h2>
     </div>
@@ -45,9 +33,7 @@
     
     <a href="create_project.php">
       <div class="column small-12">
-        <hr />
         <h5>I'm ready!</h5>
-        <hr />
       </div>
     </a>
   

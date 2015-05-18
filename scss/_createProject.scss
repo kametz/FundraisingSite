@@ -1,0 +1,60 @@
+.create-project {
+  h5 {
+    text-align: center;
+    border-top: 1px solid $ltgray;
+    border-bottom: 1px solid $ltgray;
+  }
+
+  .project_title {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  input, textarea, select {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  textarea {
+    height: 200px;
+  }
+
+  form {
+    display: block;
+  }
+
+  .input-box { 
+    position: relative; 
+    input { 
+      display: block;  
+      padding: 10px 10px 10px 20px; 
+    }
+    .unit { 
+      position: absolute; 
+      display: block; 
+      left: 5px; 
+      top: 7px; 
+      z-index: 9; }
+  }
+
+  #success {
+    display: none;
+    background-color: $white;
+    height: 700px;
+    max-width: 1000px;
+    position: absolute;
+    top: 82px;
+    z-index: 996;
+    @media screen and (min-width: $break_sm) {
+      height: 520px;
+    }
+  }
+
+  #success_message {
+    background-color: lighten($deepColor1, 40);
+    margin: 50px auto;
+    position: relative;
+  }
+  
+}
+

@@ -3,21 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Gifti: Giving for All</title>
-  
-  <!-- Set the Viewport -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <script src="//use.typekit.net/anh0cme.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
-   
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="css/libraries/foundation.css" class="css"> 
-  <link rel="stylesheet" href="css/libraries/normalize.css" class="css">
   <link rel="stylesheet" href="css/libraries/jquery.bxslider.css" class="css">
-  <link rel="stylesheet" href="css/styles.css" class="css">  
+  <?php include("includes/head.php"); ?>
 </head>
 
 <body>
@@ -43,10 +30,10 @@
       <div class="column small-12 medium-4 mp-signup">
         <h2>Gifti is a simple and fun way to connect charities and donors</h2>
         <form>
-          <input type="text" placeholder="name" name="name"></input>
-          <input type="text" placeholder="email" name="email"></input>
-          <input type="password" placeholder="password" name="password"></input><br />
-          <input type="submit" value="Join Now!" name="submit"></input>
+          <input type="text" placeholder="name" name="name">
+          <input type="text" placeholder="email" name="email">
+          <input type="password" placeholder="password" name="password"><br />
+          <input type="submit" value="Join Now!" name="submit">
         </form>
       </div> <!-- /sign up -->
 
@@ -80,12 +67,11 @@
 
   <?php include("includes/footer.php"); ?>
 
- <!-- JQuery -->
+ <!-- Javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/libraries/jquery.bxslider/jquery.bxslider.min.js"></script>
   <script src="js/slider.js"></script>
   <script src="js/nav.js"></script>
 
-  
 </body>
 </html>

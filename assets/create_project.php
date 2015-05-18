@@ -3,56 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <title>Gifti: Giving for All</title>
-  
-  <!-- Set the Viewport -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <script src="//use.typekit.net/anh0cme.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
-   
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="../css/libraries/foundation.css" class="css"> 
-  <link rel="stylesheet" href="/]../css/libraries/normalize.css" class="css">
-  <link rel="stylesheet" href="../css/styles.css" class="css">  
+  <link rel="stylesheet" href="../css/libraries/skeleton_forms.css" class="css"> 
+  <?php include("../includes/head.php"); ?>
+
 </head>
 
 <body>
 
   <?php include("../includes/top_nav.php"); ?>
 
-  <main class="row howto">
+  <main class="row create-project">
     <div class="column small-12">
       <h2>Create Your Gifti Project</h2>
     </div>
     <div class="column small-12">
-      <form>
-        <input type="text" placeholder="Project Title">
+      <form id="create_project">
+        <input type="text" placeholder="Project Title" class="project_title">
         <div class="row">
           <div class="column small-12 medium-4">
-            <div class="column small-6">
-              <img src="http://placehold.it/150x100">
-            </div>
-             <div class="column small-6">
-              <img src="http://placehold.it/150x100">
-            </div>
-             <div class="column small-6">
-              <img src="http://placehold.it/150x100">
-            </div>
-             <div class="column small-6">
-              <img src="http://placehold.it/150x100">
-            </div>
-            <hr />
+            <ul class="small-block-grid-4 medium-block-grid-2">
+              <li><img src="http://placehold.it/150x100"></li>
+              <li><img src="http://placehold.it/150x100"></li>
+              <li><img src="http://placehold.it/150x100"></li>
+              <li><img src="http://placehold.it/150x100"></li>
+            </ul>
             <h5>Upload Photos</h5>
-            <hr />
           </div> <!-- /upload photos -->
-          <input type="text" rows="15" placeholder="Your Name / Charity Name">
-          <textarea placeholder="Please enter a description of your project"></textarea>
-
+          <div class="column small-12 medium-8">
+            <input type="text" placeholder="Your Name / Charity Name">
+            <textarea placeholder="Please enter a description of your project"></textarea>
+            <select>
+              <option selected disabled>Project Category</option>
+              <option value="animal">Animals</option>
+              <option value="arts">Arts</option>
+              <option value="civil-rights">Civil Rights</option>
+              <option value="Cultural">Cultural</option>
+              <option value="consumer">Consumer Protection</option>
+              <option value="environment">Environment</option>
+              <option value="housing">Housing</option>
+              <option value="hunger">Hunger</option>
+              <option value="literacy">Literacy</option>
+              <option value="medical">Medical/Health</option>
+              <option value="public-policy">Public Policy</option>
+              <option value="youth">Youth</option>
+            </select>
+            <div class="input-box">
+              <input type="text" placeholder="Funding Goal">
+              <span class="unit">$</span>
+            </div>
+          </div> <!-- /project description -->
+        </div> <!-- /photos and description row -->
+        <div class="column small-12 medium-8 medium-centered">
+          <input type="submit" value="Submit" name="submit">
         </div>
       </form>
+    </div>
+
+    <div id="success" class="column small-12">
+      <div id="success_message" class="column small-10 small-centered medium-8 medium-centered">
+        <h2>Success!</h2>  
+        <p>Well done.  Have a look at your <a href="project_detail.php">project</a>!</p>
+      </div>
     </div>
   
 
@@ -65,5 +77,19 @@
  <!-- JQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="../js/nav.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(function(){
+        $("#create_project").submit(function(e) {
+          e.preventDefault();
+          $('#success').show();
+          $('html, body').animate({
+            scrollTop: 0
+          }, 1000);
+        });
+      });
+    });
+  </script>
+
 </body>
 </html>

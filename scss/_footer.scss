@@ -1,6 +1,8 @@
 footer {
   background-color: $deepColor1;
   color: $white;
+  z-index: 997;
+  position:relative;
   .social {
     display: none;
     @media screen and (min-width: $break_sm) {

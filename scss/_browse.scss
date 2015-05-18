@@ -4,8 +4,6 @@
   }
 }
 
-$ltgray: #eaeaea;
-
 .browse-project {
   .flickr {
     img {
@@ -16,6 +14,7 @@ $ltgray: #eaeaea;
     a {
       text-decoration: none;
       color: $ltgray;
+      margin-left: 5px;
     }
   }
   h4 {
@@ -24,6 +23,8 @@ $ltgray: #eaeaea;
   h5 {
     margin: 10px 0;
     text-align: center;
+    border-top: 1px solid $ltgray;
+    border-bottom: 1px solid $ltgray;
   }
 }
 
