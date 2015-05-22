@@ -5,6 +5,7 @@
 }
 
 .browse-project {
+  padding: 0 5px;
   .flickr {
     img {
       margin-bottom:-25px;
@@ -17,14 +18,23 @@
       margin-left: 5px;
     }
   }
+  .details {
+    padding: 0 15px;
+  }
+  .browse-details {
+    background-color: $deepColor1;
+    color: $white;
+    border: solid 2px $white;
+    border-radius: 5px;
+    font-size: .5em;
+    text-align: center;
+    text-transform: uppercase;
+    @media screen and (min-width: $break_sm) {
+      font-size: 1em;
+    }
+  }
   h4 {
     margin-bottom: -10px;
-  }
-  h5 {
-    margin: 10px 0;
-    text-align: center;
-    border-top: 1px solid $ltgray;
-    border-bottom: 1px solid $ltgray;
   }
 }
 

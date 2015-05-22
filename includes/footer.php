@@ -11,7 +11,7 @@
 
   <div class="column small-8 medium-4 bottom-nav">
     <ul>
-      <li><a href="">About</a></li>
+      <li><a href="http://www.kellymetzler.com/gifti/assets/about.php">About</a></li>
       <li><a href="">FAQ</a></li>
       <li><a href="">Contact Us</a></li>
       <li><a href="">Our Team</a></li>

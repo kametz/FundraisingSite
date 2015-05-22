@@ -13,6 +13,11 @@ h3 {
   text-transform: uppercase;
   text-align: left; }
 
+input, textarea, select {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px; }
+
 html, body {
   font-family: "brandon-grotesque", sans-serif;
   height: 100%;
@@ -197,27 +202,38 @@ footer {
       .mp-signup input {
         margin: 5px; }
       .mp-signup input[type="submit"] {
-        margin-top: 15px; } }
+        margin-top: 15px;
+        background-color: #ffffff; } }
 
 .browse .search {
   margin: 25px 0; }
 
-.browse-project .flickr {
-  color: #eaeaea;
-  font-size: .5em; }
-  .browse-project .flickr img {
-    margin-bottom: -25px; }
-  .browse-project .flickr a {
-    text-decoration: none;
+.browse-project {
+  padding: 0 5px; }
+  .browse-project .flickr {
     color: #eaeaea;
-    margin-left: 5px; }
-.browse-project h4 {
-  margin-bottom: -10px; }
-.browse-project h5 {
-  margin: 10px 0;
-  text-align: center;
-  border-top: 1px solid #eaeaea;
-  border-bottom: 1px solid #eaeaea; }
+    font-size: .5em; }
+    .browse-project .flickr img {
+      margin-bottom: -25px; }
+    .browse-project .flickr a {
+      text-decoration: none;
+      color: #eaeaea;
+      margin-left: 5px; }
+  .browse-project .details {
+    padding: 0 15px; }
+  .browse-project .browse-details {
+    background-color: #4A4A80;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    border-radius: 5px;
+    font-size: .5em;
+    text-align: center;
+    text-transform: uppercase; }
+    @media screen and (min-width: 641px) {
+      .browse-project .browse-details {
+        font-size: 1em; } }
+  .browse-project h4 {
+    margin-bottom: -10px; }
 
 .paginate {
   text-align: center;
@@ -227,6 +243,20 @@ footer {
   text-align: center; }
 .detail .project-description a {
   text-decoration: none; }
+.detail .comments-rule {
+  border-top: 1px dotted #4A4A80;
+  margin: 20px auto; }
+
+.howto h5 {
+  text-align: center;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea; }
+.howto img {
+  margin-bottom: 15px; }
+.howto input {
+  width: 90%;
+  margin: 0 auto 15px auto;
+  display: block; }
 
 .create-project h5 {
   text-align: center;
@@ -235,13 +265,17 @@ footer {
 .create-project .project_title {
   width: 100%;
   margin-bottom: 15px; }
-.create-project input, .create-project textarea, .create-project select {
-  width: 100%;
-  margin-bottom: 15px; }
+.create-project img {
+  border-radius: 5px; }
 .create-project textarea {
   height: 200px; }
-.create-project form {
-  display: block; }
+.create-project h4 {
+  margin-top: 5px; }
+.create-project .category {
+  display: inline-block;
+  width: auto;
+  margin-right: 4px;
+  padding-right: 8px; }
 .create-project .input-box {
   position: relative; }
   .create-project .input-box input {
@@ -256,15 +290,19 @@ footer {
 .create-project #success {
   display: none;
   background-color: #ffffff;
-  height: 700px;
+  height: 800px;
   max-width: 1000px;
   position: absolute;
   top: 82px;
   z-index: 996; }
-  @media screen and (min-width: 641px) {
-    .create-project #success {
-      height: 520px; } }
 .create-project #success_message {
   background-color: #bdbdd9;
   margin: 50px auto;
   position: relative; }
+
+.cart .project_wrapper {
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 5px; }
+.cart .donation {
+  text-align: right; }

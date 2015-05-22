@@ -10,17 +10,23 @@
     margin-bottom: 15px;
   }
 
-  input, textarea, select {
-    width: 100%;
-    margin-bottom: 15px;
+  img {
+    border-radius: 5px;
   }
 
   textarea {
     height: 200px;
   }
 
-  form {
-    display: block;
+  h4 {
+    margin-top: 5px;
+  }
+
+  .category {
+    display: inline-block;
+    width: auto;
+    margin-right: 4px;
+    padding-right: 8px;
   }
 
   .input-box { 
@@ -40,14 +46,11 @@
   #success {
     display: none;
     background-color: $white;
-    height: 700px;
+    height: 800px;
     max-width: 1000px;
     position: absolute;
     top: 82px;
     z-index: 996;
-    @media screen and (min-width: $break_sm) {
-      height: 520px;
-    }
   }
 
   #success_message {

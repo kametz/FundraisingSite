@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Gifti: Giving for All</title>
-  
+  <link rel="stylesheet" href="../css/libraries/skeleton_forms.css" class="css"> 
   <?php include("../includes/head.php"); ?> 
 </head>
 
@@ -11,7 +11,7 @@
 
   <?php include("../includes/top_nav.php"); ?>
 
-  <main class="row create-project">
+  <main class="row howto">
     <div class="column small-12">
       <h2>How To Create Your Gifti Project</h2>
     </div>
@@ -29,15 +29,10 @@
         <li>Itaque fuga quaerat dolorum voluptas iste quasi impedit delectus, nulla aliquid modi.</li>
         <li>Facilis pariatur officiis magni quos a error possimus minima voluptatum inventore obcaecati!</li>
       </ul>
+      <form action="create_project.php">
+        <input type="submit" value="I'm ready!">
+      </form>
     </div>
-    
-    <a href="create_project.php">
-      <div class="column small-12">
-        <h5>I'm ready!</h5>
-      </div>
-    </a>
-  
-
   </main>
 
   <?php include("../includes/footer.php"); ?>

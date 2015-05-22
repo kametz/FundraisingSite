@@ -49,7 +49,10 @@
     }
     form { margin-top: 20px; }
     input { margin: 5px; }  
-    input[type="submit"] { margin-top: 15px; }
+    input[type="submit"] { 
+      margin-top: 15px;
+      background-color: $white; 
+    }
   }
 }
 

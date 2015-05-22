@@ -15,7 +15,7 @@
 
   <main class="row create-project">
     <div class="column small-12">
-      <h2>Create Your Gifti Project</h2>
+      <h2>Create Your Gifti Project <i class="fa fa-question-circle"></i></h2>
     </div>
     <div class="column small-12">
       <form id="create_project">
@@ -28,26 +28,44 @@
               <li><img src="http://placehold.it/150x100"></li>
               <li><img src="http://placehold.it/150x100"></li>
             </ul>
-            <h5>Upload Photos</h5>
+            <input type="submit" value="Upload Photos" name="upload">
           </div> <!-- /upload photos -->
           <div class="column small-12 medium-8">
-            <input type="text" placeholder="Your Name / Charity Name">
+            <input type="text" placeholder="Your Name or Charity Name">
+            <div class="row">
+              <div class="column small-12">
+                <input type="text" placeholder="City">
+              </div>
+            </div>
+            <div class="row">
+              <div class="column small-3">
+                  <?php include("../includes/state_dropdown.php"); ?>
+              </div>
+              <div class="column small-3">
+                <input type="text" placeholder="Zip" maxlength="10">
+              </div>
+              <div class="column small-6">
+                <input type="text" placeholder="Country">
+              </div>
+            </div>
+
             <textarea placeholder="Please enter a description of your project"></textarea>
-            <select>
-              <option selected disabled>Project Category</option>
-              <option value="animal">Animals</option>
-              <option value="arts">Arts</option>
-              <option value="civil-rights">Civil Rights</option>
-              <option value="Cultural">Cultural</option>
-              <option value="consumer">Consumer Protection</option>
-              <option value="environment">Environment</option>
-              <option value="housing">Housing</option>
-              <option value="hunger">Hunger</option>
-              <option value="literacy">Literacy</option>
-              <option value="medical">Medical/Health</option>
-              <option value="public-policy">Public Policy</option>
-              <option value="youth">Youth</option>
-            </select>
+            <h4>Project Categories:</h4>
+        
+              <div class="category"><input type="checkbox" name="category" value="animals" class="category">Animals</div>
+              <div class="category"><input type="checkbox" name="category" value="arts" class="category">Arts</div>
+              <div class="category"><input type="checkbox" name="category" value="civil-rights" class="category">Civil Rights</div>
+              <div class="category"><input type="checkbox" name="category" value="cultural" class="category">Cultural</div>
+              <div class="category"><input type="checkbox" name="category" value="consumer-protection" class="category">Consumer Protection</div>
+              <div class="category"><input type="checkbox" name="category" value="environment" class="category">Environment</div>
+              <div class="category"><input type="checkbox" name="category" value="housing" class="category">Housing</div>
+              <div class="category"><input type="checkbox" name="category" value="hunger" class="category">Hunger</div>
+              <div class="category"><input type="checkbox" name="category" value="literacy" class="category">Literacy</div>
+              <div class="category"><input type="checkbox" name="category" value="medical" class="category">Medical</div>
+              <div class="category"><input type="checkbox" name="category" value="public-policy" class="category">Public Policy</div>
+              <div class="category"><input type="checkbox" name="category" value="youth" class="category">Youth</div>
+           
+
             <div class="input-box">
               <input type="text" placeholder="Funding Goal">
               <span class="unit">$</span>
