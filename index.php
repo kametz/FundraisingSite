@@ -11,7 +11,7 @@
 <body>
   <?php include("includes/top_nav.php"); ?>
 
-  <main class="row">
+  <main class="row index">
     <div class="column small-12 promotions">
       Promotions Bar
     </div>  <!--/promtions-->

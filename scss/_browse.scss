@@ -1,11 +1,68 @@
 .browse {
+  .search-row {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .search {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 25px 0;
+    font-size: 1.2em;
+    @media screen and (min-width: $break_sm) {
+      font-size: 1.6em;
+    }
+  }
+  .search-row {
+    button {
+      border: 0;
+      border-radius: 0;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+  }
+  .search-submit {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    margin: 25px 0;
+    height: 70px;
+    i {
+      width: 40px;
+      height: 40px;
+    }
+    @media screen and (min-width: $break_sm) {
+      height: 81px;
+    }
+  }
+  .category {
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 70px;
+    margin: 25px 0;
+    background-color: $deepColor1;
+    color: $white;
+    font-size: .6em;
+    text-transform: uppercase;
+    @media screen and (min-width: $break_sm) {
+      height: 81px;
+      padding-top: 22px;
+      padding-left: 20px;
+      font-size: .8em;
+    }
   }
 }
 
 .browse-project {
   padding: 0 5px;
+  .browse-card {
+    background-color: $ltgray;
+    border: 4px solid $white;
+    position: relative;
+    padding-bottom: 100px;
+  }
   .flickr {
     img {
       margin-bottom:-25px;
@@ -18,18 +75,31 @@
       margin-left: 5px;
     }
   }
-  .details {
-    padding: 0 15px;
+  
+  .alignment-cell {
+    position: absolute;
+    height: 100px;
+    width: 90%;
+    bottom: 0;
+    margin: 0 auto;
+    
   }
+
+ 
   .browse-details {
     background-color: $deepColor1;
+    padding: 3px;
+    margin-bottom: 8px;
     color: $white;
-    border: solid 2px $white;
+    border: solid 2px $ltgray;
     border-radius: 5px;
     font-size: .5em;
     text-align: center;
     text-transform: uppercase;
     @media screen and (min-width: $break_sm) {
+      font-size: .7em;
+    }
+    @media screen and (min-width: 900px) {
       font-size: 1em;
     }
   }
