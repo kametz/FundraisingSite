@@ -34,7 +34,8 @@ header {
   .tagline {
     top: 14px;
     h3 {
-      font-size: 16px;
+      font-size: 1em;
+      font-weight: 300;
       color: $white;
       text-transform: uppercase;
       text-align: left;
@@ -55,13 +56,14 @@ header {
   .item {
     border-left: 1px solid lighten($deepColor1, 30%);
     background-color: $deepColor1;
-    padding: 10px;
+    padding: 12px;
     height: 56px;
   }
 
   .item label {
     font-size: .7em;
     font-family: $bodyFonts;
+    font-weight: 300;
   }
 
   .top-nav {

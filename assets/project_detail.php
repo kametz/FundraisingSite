@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Gifti: Giving for All</title>
   <link rel="stylesheet" href="../css/libraries/skeleton_forms.css" class="css"> 
-  <link rel="stylesheet" href="..//css/libraries/jquery.bxslider.css" class="css">
+  <link rel="stylesheet" href="../css/libraries/jquery.bxslider.css" class="css">
   <?php include("../includes/head.php"); ?>
   
 </head>

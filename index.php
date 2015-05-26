@@ -22,10 +22,15 @@
       <li><img src="images/slider3.jpg" title="Slider 3" /></li>
     </ul> <!-- /slider-->
 
-    <div class="column small-12 search">
-      <i class="fa fa-search"></i>  &nbsp;
-      Search for projects by interest or location
-    </div> <!-- /search -->
+    <div class="search-row">
+      <div class="column small-10 search">
+        <i class="fa fa-search"></i>  &nbsp;
+        Search for Projects  
+      </div><!-- /search -->  
+      <button class="column small-2 search-submit" name="Submit">
+        <i class="fa fa-chevron-circle-right fa-2x"></i>
+      </button>
+    </div>
 
     <div class= "signup-featured">
       <div class="column small-12 medium-4 mp-signup">

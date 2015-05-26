@@ -8,21 +8,6 @@
 
 @import 'slider';
 
-.index {
-  .search {
-    width: 100%;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: -40px;
-    font-size: 1.2em;
-    @media screen and (min-width: $break_sm) {
-      font-size: 1.6em;
-    }
-  }
-}
-
 .signup-featured {
   margin-bottom: 30px;
 }
