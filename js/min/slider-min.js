@@ -1,1 +1,1 @@
-$(".bxslider").bxSlider({mode:"fade",auto:!0});
+$(document).ready(function(){$(".flexslider").flexslider({animation:"slide"})});

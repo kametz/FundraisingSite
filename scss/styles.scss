@@ -13,6 +13,11 @@ $break-sm: 641px;
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $headerFonts;
+  margin: 5px 0;
+}
+
+h2 {
+  margin-top: 25px;
 }
 
 input, textarea, select {
@@ -38,6 +43,7 @@ html, body {
 @import 'search';
 @import 'footer';
 @import 'homepage';
+@import 'slideroverride';
 @import 'browse';
 @import 'detail';
 @import 'howto';

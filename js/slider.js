@@ -1,4 +1,5 @@
-$('.bxslider').bxSlider({
-  mode: 'fade',
-  auto: true,
+$(document).ready(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
 });

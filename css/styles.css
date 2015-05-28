@@ -1,5 +1,9 @@
 h1, h2, h3, h4, h5, h6 {
-  font-family: "museo-slab", sans-serif; }
+  font-family: "museo-slab", sans-serif;
+  margin: 5px 0; }
+
+h2 {
+  margin-top: 25px; }
 
 input, textarea, select {
   width: 100%;
@@ -51,10 +55,17 @@ header {
   header i.sm {
     font-size: .9em; }
   header .logo {
-    top: 23px; }
+    top: 13px; }
+    @media screen and (min-width: 641px) {
+      header .logo {
+        top: 23px; } }
   header .tagline {
-    top: 14px; }
+    top: 18px; }
+    @media screen and (min-width: 641px) {
+      header .tagline {
+        top: 30px; } }
     header .tagline h3 {
+      margin: 0;
       font-size: 1em;
       font-weight: 300;
       color: #ffffff;
@@ -81,7 +92,7 @@ header {
     @media screen and (min-width: 641px) {
       header .top-nav {
         display: initial;
-        font-size: 12px; } }
+        font-size: 1em; } }
 
 .side-nav {
   width: 240px;
@@ -121,72 +132,75 @@ header {
 .search-row {
   margin: 0;
   padding: 0; }
-  .search-row .search {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 25px 0;
-    font-size: 1em;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black; }
-    @media screen and (min-width: 641px) {
-      .search-row .search {
-        font-size: 1.6em; } }
-  .search-row .search-submit {
-    padding-top: 17px;
-    padding-bottom: 10px;
-    margin: 25px 0;
-    height: 66px;
-    border: 0;
-    border-radius: 0;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black; }
-    @media screen and (min-width: 641px) {
-      .search-row .search-submit {
-        height: 81px; } }
-  .search-row .category {
-    height: 66px;
-    margin: 25px 0;
-    background-color: #4A4A80;
+
+.search {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 25px 0;
+  font-size: 1em;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black; }
+  @media screen and (min-width: 641px) {
+    .search {
+      font-size: 1.6em; } }
+
+.search-submit {
+  padding-top: 17px;
+  padding-bottom: 10px;
+  margin: 25px 0;
+  height: 66px;
+  border: 0;
+  border-radius: 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black; }
+  @media screen and (min-width: 641px) {
+    .search-submit {
+      height: 81px; } }
+
+.category {
+  height: 66px;
+  margin: 25px 0;
+  background-color: #4A4A80;
+  color: #ffffff;
+  font-size: .6em;
+  text-transform: uppercase; }
+  @media screen and (min-width: 641px) {
+    .category {
+      height: 81px;
+      font-size: .8em; } }
+  .category a {
     color: #ffffff;
-    font-size: .6em;
-    text-transform: uppercase; }
+    text-decoration: none; }
+  .category a:hover {
+    color: #ddddec; }
+  .category ul {
+    padding: 0;
+    margin: 0;
+    padding-top: 18px; }
     @media screen and (min-width: 641px) {
-      .search-row .category {
-        height: 81px;
-        font-size: .8em; } }
-    .search-row .category a {
-      color: #ffffff;
-      text-decoration: none; }
-    .search-row .category a:hover {
-      color: #ddddec; }
-    .search-row .category ul {
-      padding: 0;
-      margin: 0;
-      padding-top: 18px; }
-      @media screen and (min-width: 641px) {
-        .search-row .category ul {
-          padding-top: 22px; } }
-    .search-row .category ul li {
-      list-style-type: none; }
-    .search-row .category ul ul {
-      position: absolute;
-      display: none;
-      background-color: #4A4A80;
-      z-index: 3000;
-      padding-left: 12px;
-      text-indent: -5px;
-      padding-right: 5px;
-      width: 100%;
-      left: 0; }
-      .search-row .category ul ul li {
-        padding-top: 8px; }
-      .search-row .category ul ul li:last-of-type {
-        padding-bottom: 10px; }
-    .search-row .category li:hover ul {
-      display: block; }
+      .category ul {
+        padding-top: 22px; } }
+  .category ul li {
+    list-style-type: none; }
+  .category ul ul {
+    position: absolute;
+    display: none;
+    background-color: #4A4A80;
+    z-index: 3000;
+    padding-left: 12px;
+    text-indent: -5px;
+    padding-right: 5px;
+    width: 100%;
+    left: 0; }
+    .category ul ul li {
+      padding-top: 8px; }
+    .category ul ul li:last-of-type {
+      padding-bottom: 10px; }
+  .category li:hover ul {
+    display: block; }
 
 .index .search-row {
-  margin: -40px 0 0 0; }
+  margin: 0 auto; }
 .index .search, .index .search-submit {
   margin: 0; }
 
@@ -216,19 +230,24 @@ footer {
   background-color: #ffffff;
   display: none; }
 
-.bx-wrapper .bx-pager.bx-default-pager a {
-  background: #666;
-  margin: -50px 5px 0 5px; }
+.flexslider {
+  padding: 0;
+  border: 0; }
 
-.bx-wrapper .bx-pager.bx-default-pager a:hover,
-.bx-wrapper .bx-pager.bx-default-pager a.active {
-  background: #000; }
+.index .flexslider {
+  margin-top: 25px;
+  margin-bottom: 30px; }
 
-.bxslider {
-  padding: 0; }
+.flex-control-paging li a {
+  margin-top: -70px; }
+
+.detail .flex-direction-nav {
+  display: none !important; }
+.detail .flex-caption {
+  left: 0 !important; }
 
 .signup-featured {
-  margin-bottom: 30px; }
+  margin-top: 30px; }
 
 .mp-signup {
   display: none; }
@@ -236,15 +255,13 @@ footer {
     .mp-signup {
       display: initial;
       background-color: #4A4A80;
-      margin-top: 30px;
-      padding-bottom: 20px;
-      padding-top: 10px;
+      max-height: 425px;
+      padding-top: 20px;
       text-align: center; }
       .mp-signup h2 {
         color: #ffffff;
-        margin-bottom: 0px;
-        margin-left: 20px;
-        margin-right: 20px;
+        width: 90%;
+        margin: 0 auto;
         font-family: "museo-slab", serif;
         font-size: 1.2em;
         font-weight: 400;
@@ -254,78 +271,19 @@ footer {
         font-size: .9em; } }
   @media screen and (min-width: 641px) {
       .mp-signup form {
-        margin-top: 20px; }
-      .mp-signup input {
-        margin: 5px; }
+        margin: 20px auto 0 auto; }
       .mp-signup input[type="submit"] {
         margin-top: 15px;
         background-color: #ffffff; } }
 
+.featproj h2 {
+  margin-top: 0; }
+
+.fp-caption {
+  margin-bottom: 15px; }
+
 .browse .row {
   margin: 0; }
-.browse .search-row .search {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: 25px 0;
-  font-size: 1em;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black; }
-  @media screen and (min-width: 641px) {
-    .browse .search-row .search {
-      font-size: 1.6em; } }
-.browse .search-row .search-submit {
-  padding-top: 17px;
-  padding-bottom: 10px;
-  margin: 25px 0;
-  height: 66px;
-  border: 0;
-  border-radius: 0;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black; }
-  @media screen and (min-width: 641px) {
-    .browse .search-row .search-submit {
-      height: 81px; } }
-.browse .search-row .category {
-  height: 66px;
-  margin: 25px 0;
-  background-color: #4A4A80;
-  color: #ffffff;
-  font-size: .6em;
-  text-transform: uppercase; }
-  @media screen and (min-width: 641px) {
-    .browse .search-row .category {
-      height: 81px;
-      font-size: .8em; } }
-  .browse .search-row .category a {
-    color: #ffffff;
-    text-decoration: none; }
-  .browse .search-row .category a:hover {
-    color: #ddddec; }
-  .browse .search-row .category ul {
-    padding: 0;
-    margin: 0;
-    padding-top: 18px; }
-    @media screen and (min-width: 641px) {
-      .browse .search-row .category ul {
-        padding-top: 22px; } }
-  .browse .search-row .category ul li {
-    list-style-type: none; }
-  .browse .search-row .category ul ul {
-    position: absolute;
-    display: none;
-    background-color: #4A4A80;
-    z-index: 3000;
-    padding-left: 12px;
-    text-indent: -5px;
-    padding-right: 5px;
-    width: 100%;
-    left: 0; }
-    .browse .search-row .category ul ul li {
-      padding-top: 8px; }
-    .browse .search-row .category ul ul li:last-of-type {
-      padding-bottom: 10px; }
-  .browse .search-row .category li:hover ul {
-    display: block; }
 
 .browse-project h4 {
   margin-bottom: -10px; }
@@ -382,6 +340,14 @@ footer {
 .detail .comments-rule {
   border-top: 1px dotted #4A4A80;
   margin: 20px auto; }
+.detail p {
+  margin-top: 0; }
+.detail .title-block {
+  margin-top: 25px; }
+.detail .project-metrics {
+  margin-top: 50px;
+  font-size: 1.2em;
+  text-align: center; }
 
 .howto h5 {
   text-align: center;

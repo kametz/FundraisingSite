@@ -9,7 +9,7 @@
 @import 'slider';
 
 .signup-featured {
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .mp-signup {
@@ -17,15 +17,13 @@
   @media screen and (min-width: $break_sm) {
     display: initial;
     background-color: $deepColor1;
-    margin-top: 30px;
-    padding-bottom: 20px;
-    padding-top: 10px;
+    max-height: 425px;
+    padding-top: 20px;
     text-align: center;
     h2 {
       color: $white;
-      margin-bottom: 0px;
-      margin-left: 20px;
-      margin-right: 20px;
+      width: 90%;
+      margin: 0 auto;
       font-family: $header2;
       font-size: 1.2em;
       font-weight: 400;
@@ -34,12 +32,23 @@
         font-size: .9em;
       }
     }
-    form { margin-top: 20px; }
-    input { margin: 5px; }  
+    form { 
+      margin: 20px auto 0 auto; 
+    } 
     input[type="submit"] { 
       margin-top: 15px;
       background-color: $white; 
     }
   }
+}
+
+.featproj {
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.fp-caption {
+  margin-bottom: 15px;
 }
 

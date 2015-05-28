@@ -1,13 +1,25 @@
-.bx-wrapper .bx-pager.bx-default-pager a {
-  background: #666;
-  margin: -50px 5px 0 5px;
-}
-
-.bx-wrapper .bx-pager.bx-default-pager a:hover,
-.bx-wrapper .bx-pager.bx-default-pager a.active {
-  background: #000;
-}
-
-.bxslider {
+.flexslider {
   padding: 0;
+  border: 0;
+}
+
+.index {
+  .flexslider {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+}
+
+.flex-control-paging li a {
+  margin-top: -70px;
+}
+
+
+.detail {
+  .flex-direction-nav {
+    display: none !important;
+  }
+  .flex-caption{
+    left:0 !important;
+  }
 }

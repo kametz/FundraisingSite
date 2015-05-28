@@ -20,7 +20,7 @@
      in a limited time frame, Gifti lacks
      features that would otherwise be vital to such a project, but I hope it provides a pleasant user experience in the scope of what
      it does do.  </p>
-    <p>Gifti was created with the help of Sass, Bourbon, Foundation CSS, a pinch of Skeleton CSS, bxslider (image slider), jQuery, 
+    <p>Gifti was created with the help of Sass, Bourbon, Foundation CSS, a pinch of Skeleton CSS, FlexSlider (image slider), jQuery, 
     HTML, CSS, and a lot of time spent with Google and Stack Overflow.  </p>
     <p>With the exception of the frameworks and plugins listed above,
       all prototyping, branding, wireframing, programming, etc. was
