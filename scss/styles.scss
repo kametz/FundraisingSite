@@ -4,6 +4,7 @@
 $deepColor1: #4A4A80;
 $white: #ffffff;
 $ltgray: #eaeaea;
+$ltgreen: #C5E66E;
 
 $headerFonts: 'museo-slab', sans-serif;
 $bodyFonts:  'sofia-pro', sans-serif;
@@ -39,7 +40,8 @@ html, body {
   margin: 10px;
 }
 
-@import 'header';
+@import 'topNav';
+@import 'flexslider';
 @import 'search';
 @import 'footer';
 @import 'homepage';

@@ -113,6 +113,8 @@ header {
   color: #ffffff; }
   .side-nav .nav-list {
     font-family: "museo-slab", sans-serif; }
+  .side-nav h3 {
+    margin-top: 20px; }
   .side-nav a {
     text-decoration: none;
     color: #ffffff; }
@@ -129,6 +131,12 @@ header {
   -o-transform: translate(0, 0);
   transform: translate(0, 0); }
 
+@media screen and (max-width: 860px) {
+  .flex-direction-nav .flex-prev {
+    display: none; }
+
+  .flex-direction-nav .flex-next {
+    display: none; } }
 .search-row {
   margin: 0;
   padding: 0; }
@@ -246,8 +254,31 @@ footer {
 .detail .flex-caption {
   left: 0 !important; }
 
+.mp-photo-caption-container {
+  background-color: #C5E66E;
+  padding: 0;
+  height: 100%; }
+  .mp-photo-caption-container a {
+    text-decoration: none; }
+
+.beach {
+  background-color: #DBB6C1; }
+
+.salad {
+  background-color: #F2A574; }
+
+.flexslider .medium-8 {
+  padding: 0; }
+
+.flexslider .row {
+  margin: 0; }
+
+.mp-photo-caption {
+  padding: 20px; }
+
 .signup-featured {
-  margin-top: 30px; }
+  margin-top: 30px;
+  margin-bottom: 20px; }
 
 .mp-signup {
   display: none; }
@@ -272,6 +303,8 @@ footer {
   @media screen and (min-width: 641px) {
       .mp-signup form {
         margin: 20px auto 0 auto; }
+      .mp-signup input {
+        margin-top: 8px; }
       .mp-signup input[type="submit"] {
         margin-top: 15px;
         background-color: #ffffff; } }

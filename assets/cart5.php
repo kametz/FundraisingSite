@@ -13,22 +13,35 @@
 
   <?php include("../includes/top_nav.php"); ?>
 
-  <main class="row cart">
-    <div class="column small-12">
-      <h2>Thank You for Contributing!</h2>
+  <main class="cart">
+    <div class="row">
+      <div class="column small-12">
+        <h2>Thank You for Contributing!</h2>
+      </div>
     </div>
 
-    <div class="small-10 small-push-1 column project_wrapper">
-      <div class="column small-8">
-        <h5>Project</h5>
-        <p>Help Puppies Learn to Read</p>
-        <p><em>Doggy Literacy Association</em></p>
+    <div class="row">
+      <div class="small-10 small-push-1 column project_wrapper">
+        <div class="column small-8">
+          <h5>Project</h5>
+          <p>Help Puppies Learn to Read</p>
+          <p><em>Puppy Literacy Association</em></p>
+        </div>
+        <div class="column small-4 donation">
+          <h5>My Donation</h5>
+          <p>$5</p>
+        </div>
+      </div> 
+    </div><!-- /project_wrapper -->
+
+    <div class="row">
+      <div class="column small-12 medium-6">
+        Billing Address
       </div>
-      <div class="column small-4 donation">
-        <h5>My Donation</h5>
-        <p>$5</p>
+      <div class="column small-12 medium-6">
+        Payment Information
       </div>
-    </div> <!-- /project_wrapper -->
+    </div>
       
 
     <form id="cart">

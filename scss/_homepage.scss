@@ -8,8 +8,40 @@
 
 @import 'slider';
 
+.mp-photo-caption-container {
+  background-color: $ltgreen;
+  padding: 0;
+  height: 100%;
+  a {
+    text-decoration: none;
+  }
+}
+
+.beach {
+  background-color: #DBB6C1;
+}
+
+.salad {
+  background-color: #F2A574;
+}
+
+.flexslider {
+  .medium-8 {
+    padding: 0;
+  }
+}
+
+.flexslider .row {
+  margin: 0;
+}
+
+.mp-photo-caption {
+  padding: 20px;
+}
+
 .signup-featured {
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .mp-signup {
@@ -35,6 +67,9 @@
     form { 
       margin: 20px auto 0 auto; 
     } 
+    input {
+      margin-top: 8px;
+    }
     input[type="submit"] { 
       margin-top: 15px;
       background-color: $white; 

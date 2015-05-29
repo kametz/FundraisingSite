@@ -12,19 +12,65 @@
   <?php include("includes/top_nav.php"); ?>
 
   <main class="index">
+    <!-- Promotions Bar, off by default, use for additional marketing space -->
     <div class="row">
       <div class="column small-12 promotions">
         Promotions Bar
-      </div>  <!--/promtions-->
+      </div>  
+    </div><!--/promtions row-->
+      
+    <!-- Main Photo -->
+    <div class="row">
       <div class="column small-12 flexslider">
         <ul class="slides">
-          <li><img src="images/slider1.jpg" title="Slider 1" /></li>
-          <li><img src="images/slider2.jpg" title="Slider 2" /></li>
-          <li><img src="images/slider3.jpg" title="Slider 3" /></li>
+          <li>
+            <div class="row" data-equalizer>
+              <div class="column small-12 medium-8" data-equalizer-watch data-equalizer-mq="medium-up">
+                <img src="images/homepage/lgpuppy.jpg" title="Two puppies" />
+              </div>
+              <div class="column small-12 medium-4 mp-photo-caption-container" data-equalizer-watch>
+                <div class="mp-photo-caption">
+                  <h3>Help Puppies Learn to Read!</h3>
+                  <p>All over the world, puppies are suffering.  Suffering from their lack of reading skills.
+                   Jobs: denied.  Relationships: failed.  All of this is in our hands to fix.</p>
+                  <p><a href="assets/project_detail.php">Learn more &raquo; </a></p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="row" data-equalizer>
+              <div class="column small-12 medium-8" data-equalizer-watch data-equalizer-mq="medium-up">
+                <img src="images/homepage/beach.jpg" title="Kids at beach" />
+              </div>
+              <div class="column small-12 medium-4 mp-photo-caption-container beach" data-equalizer-watch>
+                <div class="mp-photo-caption">
+                  <h3>Every Day's a Beach</h3>
+                  <p>We have a van.  We have kids.  We need a bit of cash to buy gas and lunch.  Help us make a special day for special kids?</p>
+                  <p><a href="assets/project_detail.php">Learn more &raquo; </a></p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="row" data-equalizer>
+              <div class="column small-12 medium-8" data-equalizer-watch data-equalizer-mq="medium-up">
+                <img src="images/homepage/salad.jpg" title="Woman and salad" />
+              </div>
+              <div class="column small-12 medium-4 mp-photo-caption-container salad" data-equalizer-watch>
+                <div class="mp-photo-caption">
+                  <h3>Eat Your Colors</h3>
+                  <p>Eating lots of vegetables: easier said than done.  We're building a portable veggie case that makes eating fresh food easy and fun.</p>
+                  <p><a href="assets/project_detail.php">Learn more &raquo; </a></p>
+                </div>
+              </div>
+            </div>
+          </li>
         </ul> 
-      </div><!-- /slider-->
-    </div><!-- /row -->
-
+      </div>
+    </div><!-- /slider row-->
+    
+    <!-- Search -->
     <div class="row search-row">
       <div class="column small-10 search">
         <i class="fa fa-search"></i>  &nbsp;
