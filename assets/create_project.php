@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>Gifti: Giving for All</title>
 
-  <link rel="stylesheet" href="../css/libraries/skeleton_forms.css" class="css"> 
   <?php include("../includes/head.php"); ?>
 
 </head>
@@ -52,18 +51,18 @@
             <textarea placeholder="Please enter a description of your project"></textarea>
             <h4>Project Categories:</h4>
         
-              <div class="category"><input type="checkbox" name="category" value="animals" class="category">Animals</div>
-              <div class="category"><input type="checkbox" name="category" value="arts" class="category">Arts</div>
-              <div class="category"><input type="checkbox" name="category" value="civil-rights" class="category">Civil Rights</div>
-              <div class="category"><input type="checkbox" name="category" value="cultural" class="category">Cultural</div>
-              <div class="category"><input type="checkbox" name="category" value="consumer-protection" class="category">Consumer Protection</div>
-              <div class="category"><input type="checkbox" name="category" value="environment" class="category">Environment</div>
-              <div class="category"><input type="checkbox" name="category" value="housing" class="category">Housing</div>
-              <div class="category"><input type="checkbox" name="category" value="hunger" class="category">Hunger</div>
-              <div class="category"><input type="checkbox" name="category" value="literacy" class="category">Literacy</div>
-              <div class="category"><input type="checkbox" name="category" value="medical" class="category">Medical</div>
-              <div class="category"><input type="checkbox" name="category" value="public-policy" class="category">Public Policy</div>
-              <div class="category"><input type="checkbox" name="category" value="youth" class="category">Youth</div>
+              <div class="create-category"><input type="checkbox" name="category" value="animals" class="create-category">Animals</div>
+              <div class="create-category"><input type="checkbox" name="category" value="arts" class="create-category">Arts</div>
+              <div class="create-category"><input type="checkbox" name="category" value="civil-rights" class="create-category">Civil Rights</div>
+              <div class="create-category"><input type="checkbox" name="category" value="cultural" class="create-category">Cultural</div>
+              <div class="create-category"><input type="checkbox" name="category" value="consumer-protection" class="create-category">Consumer Protection</div>
+              <div class="create-category"><input type="checkbox" name="category" value="environment" class="create-category">Environment</div>
+              <div class="create-category"><input type="checkbox" name="category" value="housing" class="create-category">Housing</div>
+              <div class="create-category"><input type="checkbox" name="category" value="hunger" class="create-category">Hunger</div>
+              <div class="create-category"><input type="checkbox" name="category" value="literacy" class="create-category">Literacy</div>
+              <div class="create-category"><input type="checkbox" name="category" value="medical" class="create-category">Medical</div>
+              <div class="create-category"><input type="checkbox" name="category" value="public-policy" class="create-category">Public Policy</div>
+              <div class="create-category"><input type="checkbox" name="category" value="youth" class="create-category">Youth</div>
            
 
             <div class="input-box">

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Gifti: Help Puppies Learn To Read</title>
-  <link rel="stylesheet" href="../css/libraries/skeleton_forms.css" class="css"> 
+
   <link rel="stylesheet" href="../vendor/FlexSlider/flexslider.css" class="css">
   <?php include("../includes/head.php"); ?>
   

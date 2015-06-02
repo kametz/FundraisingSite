@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Gifti: Giving for All</title>
-  <link rel="stylesheet" href="css/libraries/skeleton_forms.css" class="css"> 
   <link rel="stylesheet" href="vendor/FlexSlider/flexslider.css" class="css">
   <?php include("includes/head.php"); ?>
 </head>
@@ -22,6 +21,10 @@
     <!-- Main Photo -->
     <div class="row">
       <div class="column small-12 flexslider">
+        <!-- The equalizer doesn't work correctly if the page
+        is actively resized at the small breakpoint.  But it works 
+        fine if the page is reloaded.  Since the use case for people
+        actively changing browser size is limited, I'm going to leave it.  -->
         <ul class="slides">
           <li>
             <div class="row" data-equalizer>
@@ -32,7 +35,7 @@
                 <div class="mp-photo-caption">
                   <h3>Help Puppies Learn to Read!</h3>
                   <p>All over the world, puppies are suffering.  Suffering from their lack of reading skills.
-                   Jobs: denied.  Relationships: failed.  All of this is in our hands to fix.</p>
+                   Jobs: denied.  Relationships: failed.  Puppy literacy is everyone's responsibility.</p>
                   <p><a href="assets/project_detail.php">Learn more &raquo; </a></p>
                 </div>
               </div>
@@ -46,7 +49,8 @@
               <div class="column small-12 medium-4 mp-photo-caption-container beach" data-equalizer-watch>
                 <div class="mp-photo-caption">
                   <h3>Every Day's a Beach</h3>
-                  <p>We have a van.  We have kids.  We need a bit of cash to buy gas and lunch.  Help us make a special day for special kids?</p>
+                  <p>We have the van.  We have the kids.  What we need is a bit of cash to buy gas and lunch.  
+                    Help us make a special day for special kids at Dillon Beach?</p>
                   <p><a href="assets/project_detail.php">Learn more &raquo; </a></p>
                 </div>
               </div>
@@ -60,7 +64,9 @@
               <div class="column small-12 medium-4 mp-photo-caption-container salad" data-equalizer-watch>
                 <div class="mp-photo-caption">
                   <h3>Eat Your Colors</h3>
-                  <p>Eating lots of vegetables: easier said than done.  We're building a portable veggie case that makes eating fresh food easy and fun.</p>
+                  <p>Eating lots of vegetables: easier said than done.  We're making a 
+                     veggie case to make eating fresh food fun.  
+                    You'll love eating your greens&mdash;and your yellows, oranges, and reds.</p>
                   <p><a href="assets/project_detail.php">Learn more &raquo; </a></p>
                 </div>
               </div>

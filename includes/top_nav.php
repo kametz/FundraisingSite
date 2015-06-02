@@ -17,11 +17,14 @@
       <i class="fa fa-pencil sm"></i>
       <label>Create Project</label>
     </a>
-    <a class="item">
+    <a href="#signup-modal" class="item">
       <i class="fa fa-sign-in sm"></i>
       <label>Sign Up</label>
     </a>
   </nav>
+
+  <?php include("http://www.kellymetzler.com/gifti/includes/signup.php"); ?>
+
 </header>
 
 <div class="side-nav">
@@ -29,7 +32,7 @@
     <ul>
       <li><a href="http://www.kellymetzler.com/gifti/assets/browse.php">Browse Projects</a> </li>
       <li><a href="http://www.kellymetzler.com/gifti/assets/howto.php">Create Project</a> </li>
-      <li><a href="#">Sign Up</a> </li>
+      <li><a href="#signup-modal">Sign Up</a> </li>
     </ul>
 
     <ul>

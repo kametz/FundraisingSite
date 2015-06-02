@@ -11,6 +11,7 @@
   <link rel="icon" type="image/png" href="http://www.kellymetzler.com/gifti/favicon-16x16.png" sizes="16x16" />
    
   <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="http://www.kellymetzler.com/gifti/css/libraries/skeleton_forms.css" class="css"> 
   <link rel="stylesheet" href="http://www.kellymetzler.com/gifti/css/libraries/foundation.css" class="css"> 
   <link rel="stylesheet" href="http://www.kellymetzler.com/gifti/css/libraries/normalize.css" class="css">
   <link rel="stylesheet" href="http://www.kellymetzler.com/gifti/css/styles.css" class="css">  
