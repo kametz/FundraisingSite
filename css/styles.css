@@ -154,6 +154,11 @@ header {
     text-decoration: none; }
   .modalDialog input[type="radio"] {
     width: 35px; }
+  .modalDialog input[type="checkbox"] {
+    width: 35px; }
+  .modalDialog p {
+    margin-top: -5px;
+    margin-bottom: 10px; }
 
 .modalDialog:target {
   opacity: 1;
@@ -380,6 +385,8 @@ footer {
   position: relative;
   border: 1px solid #eaeaea;
   padding-bottom: 120px; }
+  .browse-project .browse-card a {
+    text-decoration: none; }
   .browse-project .browse-card .flickr {
     color: #eaeaea;
     font-size: .5em; }
@@ -387,9 +394,9 @@ footer {
       margin-bottom: -25px;
       width: 100%; }
     .browse-project .browse-card .flickr a {
-      text-decoration: none;
-      color: #eaeaea;
-      margin-left: 5px; }
+      color: #eaeaea; }
+    .browse-project .browse-card .flickr .caption {
+      padding-left: 5px; }
   .browse-project .browse-card .text-contents {
     padding-left: 15px;
     padding-right: 15px; }

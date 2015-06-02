@@ -46,12 +46,16 @@
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <img src="../images/browse/puppy.jpg">
-            <a href="https://www.flickr.com/photos/soggydan/465878311/">Soggydan</a> /<a href="http://creativecommons.org/licenses/by/2.0/">CC BY</a>
+            <a href="project_detail.php">
+              <img src="../images/browse/puppy.jpg">
+            </a>
+            <span class="caption">
+              <a href="https://www.flickr.com/photos/soggydan/465878311/">Soggydan</a> /<a href="http://creativecommons.org/licenses/by/2.0/">CC BY</a>
+            </span>
           </span>
           <div class="text-contents">
             <h4><small><em>In Animals and Literacy</em></small></h4>
-            <h3>Help Puppies Learn To Read</h3>
+            <h3><a href="project_detail.php">Help Puppies Learn To Read</a></h3>
             <h4><small><em>Puppy Literacy Association</em></small></h4>
             <h5><small>Lancaster, Minnesota, USA</small></h5>
             <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
@@ -69,22 +73,23 @@
               7 Days<br> 
               to Go
             </div>
-            <form action="project_detail.php" class="column small-12">
-              <input type="submit" value="Details">
-            </form> 
-          </div> <!-- /goals, funded, details -->
-        </div> <!-- /browse card -->
+          </div> <!-- /goals, funded -->
+        </div><!-- /browse card -->
       </div> <!-- /card container -->
 
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <img src="../images/browse/mountain.jpg">
-            <a href="https://www.flickr.com/photos/lookleft/2473023805/in/photolist-dDRwUn-dDWPeQ-4LABsG-4LvVmp-4LAeF1-4LxqAd-4Lxh4Q-4LwTPt-4LxdLd-vM29b-q8WGX-8aLZM-75S5N-4NX6S-4MV5c-4MQme-4MQqR-4MQth-4MQi7-4MQf2">km</a>
+            <a href="project_detail.php">
+              <img src="../images/browse/mountain.jpg">
+            </a>
+            <span class="caption">
+              <a href="https://www.flickr.com/photos/lookleft/2473023805/in/photolist-dDRwUn-dDWPeQ-4LABsG-4LvVmp-4LAeF1-4LxqAd-4Lxh4Q-4LwTPt-4LxdLd-vM29b-q8WGX-8aLZM-75S5N-4NX6S-4MV5c-4MQme-4MQqR-4MQth-4MQi7-4MQf2">km</a>
+            </span>
           </span>
           <div class="text-contents">
             <h4><small><em>In Environment</em></small></h4>
-            <h3>Demand More Snow!</h3>
+            <h3><a href="project_detail.php">Demand More Snow!</a></h3>
             <h4><small><em>H2whoah</em></small></h4>
             <h5><small>Elko, Nevada, USA</small></h5>
             <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
@@ -102,22 +107,23 @@
               6 Hours<br> 
               to Go
             </div>
-            <form action="project_detail.php" class="column small-12">
-              <input type="submit" value="Details">
-            </form> 
-          </div> <!-- /goals, funded, details -->
+          </div> <!-- /goals, funded-->
         </div> <!-- /browse card -->
       </div> <!-- /card container -->
 
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <img src="../images/browse/kidsinparis.jpg">
-            <a href="https://www.flickr.com/photos/lookleft/4682245137/in/dateposted-public/">km</a>
+            <a href="project_detail.php">
+              <img src="../images/browse/kidsinparis.jpg">
+            </a>
+            <span class="caption">
+              <a href="https://www.flickr.com/photos/lookleft/4682245137/in/dateposted-public/">km</a>
+            </span>
           </span>
           <div class="text-contents">
             <h4><small><em>In Culture and Youth</em></small></h4>
-            <h3>From Paris to Paris</h3>
+            <h3><a href="project_detail.php">From Paris to Paris</a></h3>
             <h4><small><em>Ontario Public Schools</em></small></h4>
             <h5><small>Paris, Ontario, Canada</small></h5>
             <p>Lorem ipsum dolor sit amet, ribus assumenda rem id ab. nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
@@ -135,22 +141,23 @@
               4 Days<br> 
               to Go
             </div>
-            <form action="project_detail.php" class="column small-12">
-              <input type="submit" value="Details">
-            </form> 
-          </div> <!-- /goals, funded, details -->
+          </div> <!-- /goals, funded -->
         </div> <!-- /browse card -->
       </div> <!-- /card container -->
 
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <img src="../images/browse/maunakea.jpg">
-            <a href="https://www.flickr.com/photos/lookleft/8304648161/in/dateposted-public/">km</a>
+            <a href="project_detail.php">
+              <img src="../images/browse/maunakea.jpg">
+            </a>
+            <span class="caption">
+              <a href="https://www.flickr.com/photos/lookleft/8304648161/in/dateposted-public/">km</a>
+            </span>
           </span>
           <div class="text-contents">
             <h4><small><em>In Youth</em></small></h4>
-            <h3>World Class Astronomy for Kids</h3>
+            <h3><a href="project_detail.php">World Class Astronomy for Kids</a></h3>
             <h4><small><em>To the Stars Foundation</em></small></h4>
             <h5><small>Mauna Kea, Hawaii, USA</small></h5>
             <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
@@ -168,55 +175,23 @@
               14 Days<br> 
               to Go
             </div>
-            <form action="project_detail.php" class="column small-12">
-              <input type="submit" value="Details">
-            </form> 
-          </div> <!-- /goals, funded, details -->
-        </div> <!-- /browse card -->
-      </div> <!-- /card container -->
-
-       <div class="card-container column small-12 medium-4">
-        <div class="browse-card" data-equalizer-watch>
-          <span class="flickr">
-            <img src="../images/browse/maunakea.jpg">
-            <a href="https://www.flickr.com/photos/lookleft/8304648161/in/dateposted-public/">km</a>
-          </span>
-          <div class="text-contents">
-            <h4><small><em>In Youth</em></small></h4>
-            <h3>World Class Astronomy for Kids</h3>
-            <h4><small><em>To the Stars Foundation</em></small></h4>
-            <h5><small>Mauna Kea, Hawaii, USA</small></h5>
-            <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
-          </div> <!-- /text contents -->
-          <div class="row alignment-cell">
-            <div class="column small-4 browse-details">
-              $5500<br> 
-              goal
-            </div>
-            <div class="column small-4 browse-details">
-              78%<br>
-              funded
-            </div>
-            <div class="column small-4 browse-details last">
-              14 Days<br> 
-              to Go
-            </div>
-            <form action="project_detail.php" class="column small-12">
-              <input type="submit" value="Details">
-            </form> 
-          </div> <!-- /goals, funded, details -->
+          </div> <!-- /goals, funded -->
         </div> <!-- /browse card -->
       </div> <!-- /card container -->
 
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <img src="../images/browse/maunakea.jpg">
-            <a href="https://www.flickr.com/photos/lookleft/8304648161/in/dateposted-public/">km</a>
+            <a href="project_detail.php">
+              <img src="../images/browse/maunakea.jpg">
+            </a>
+            <span class="caption">
+              <a href="https://www.flickr.com/photos/lookleft/8304648161/in/dateposted-public/">km</a>
+            </span>
           </span>
           <div class="text-contents">
             <h4><small><em>In Youth</em></small></h4>
-            <h3>World Class Astronomy for Kids</h3>
+            <h3><a href="project_detail.php">World Class Astronomy for Kids</a></h3>
             <h4><small><em>To the Stars Foundation</em></small></h4>
             <h5><small>Mauna Kea, Hawaii, USA</small></h5>
             <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
@@ -234,56 +209,23 @@
               14 Days<br> 
               to Go
             </div>
-            <form action="project_detail.php" class="column small-12">
-              <input type="submit" value="Details">
-            </form> 
-          </div> <!-- /goals, funded, details -->
-        </div> <!-- /browse card -->
-      </div> <!-- /card container -->
-
-
-      <div class="card-container column small-12 medium-4">
-        <div class="browse-card" data-equalizer-watch>
-          <span class="flickr">
-            <img src="../images/browse/maunakea.jpg">
-            <a href="https://www.flickr.com/photos/lookleft/8304648161/in/dateposted-public/">km</a>
-          </span>
-          <div class="text-contents">
-            <h4><small><em>In Youth</em></small></h4>
-            <h3>World Class Astronomy for Kids</h3>
-            <h4><small><em>To the Stars Foundation</em></small></h4>
-            <h5><small>Mauna Kea, Hawaii, USA</small></h5>
-            <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
-          </div> <!-- /text contents -->
-          <div class="row alignment-cell">
-            <div class="column small-4 browse-details">
-              $5500<br> 
-              goal
-            </div>
-            <div class="column small-4 browse-details">
-              78%<br>
-              funded
-            </div>
-            <div class="column small-4 browse-details last">
-              14 Days<br> 
-              to Go
-            </div>
-            <form action="project_detail.php" class="column small-12">
-              <input type="submit" value="Details">
-            </form> 
-          </div> <!-- /goals, funded, details -->
+          </div> <!-- /goals, funded -->
         </div> <!-- /browse card -->
       </div> <!-- /card container -->
 
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <img src="../images/browse/maunakea.jpg">
-            <a href="https://www.flickr.com/photos/lookleft/8304648161/in/dateposted-public/">km</a>
+            <a href="project_detail.php">
+              <img src="../images/browse/maunakea.jpg">
+            </a>
+            <span class="caption">
+              <a href="https://www.flickr.com/photos/lookleft/8304648161/in/dateposted-public/">km</a>
+            </span>
           </span>
           <div class="text-contents">
             <h4><small><em>In Youth</em></small></h4>
-            <h3>World Class Astronomy for Kids</h3>
+            <h3><a href="project_detail.php">World Class Astronomy for Kids</a></h3>
             <h4><small><em>To the Stars Foundation</em></small></h4>
             <h5><small>Mauna Kea, Hawaii, USA</small></h5>
             <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
@@ -301,22 +243,23 @@
               14 Days<br> 
               to Go
             </div>
-            <form action="project_detail.php" class="column small-12">
-              <input type="submit" value="Details">
-            </form> 
-          </div> <!-- /goals, funded, details -->
+          </div> <!-- /goals, funded -->
         </div> <!-- /browse card -->
       </div> <!-- /card container -->
 
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <img src="../images/browse/maunakea.jpg">
-            <a href="https://www.flickr.com/photos/lookleft/8304648161/in/dateposted-public/">km</a>
+            <a href="project_detail.php">
+              <img src="../images/browse/maunakea.jpg">
+            </a>
+            <span class="caption">
+              <a href="https://www.flickr.com/photos/lookleft/8304648161/in/dateposted-public/">km</a>
+            </span>
           </span>
           <div class="text-contents">
             <h4><small><em>In Youth</em></small></h4>
-            <h3>World Class Astronomy for Kids</h3>
+            <h3><a href="project_detail.php">World Class Astronomy for Kids</a></h3>
             <h4><small><em>To the Stars Foundation</em></small></h4>
             <h5><small>Mauna Kea, Hawaii, USA</small></h5>
             <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
@@ -334,10 +277,75 @@
               14 Days<br> 
               to Go
             </div>
-            <form action="project_detail.php" class="column small-12">
-              <input type="submit" value="Details">
-            </form> 
-          </div> <!-- /goals, funded, details -->
+          </div> <!-- /goals, funded -->
+        </div> <!-- /browse card -->
+      </div> <!-- /card container -->
+
+      <div class="card-container column small-12 medium-4">
+        <div class="browse-card" data-equalizer-watch>
+          <span class="flickr">
+            <a href="project_detail.php">
+              <img src="../images/browse/maunakea.jpg">
+            </a>
+            <span class="caption">
+              <a href="https://www.flickr.com/photos/lookleft/8304648161/in/dateposted-public/">km</a>
+            </span>
+          </span>
+          <div class="text-contents">
+            <h4><small><em>In Youth</em></small></h4>
+            <h3><a href="project_detail.php">World Class Astronomy for Kids</a></h3>
+            <h4><small><em>To the Stars Foundation</em></small></h4>
+            <h5><small>Mauna Kea, Hawaii, USA</small></h5>
+            <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
+          </div> <!-- /text contents -->
+          <div class="row alignment-cell">
+            <div class="column small-4 browse-details">
+              $5500<br> 
+              goal
+            </div>
+            <div class="column small-4 browse-details">
+              78%<br>
+              funded
+            </div>
+            <div class="column small-4 browse-details last">
+              14 Days<br> 
+              to Go
+            </div>
+          </div> <!-- /goals, funded -->
+        </div> <!-- /browse card -->
+      </div> <!-- /card container -->
+
+      <div class="card-container column small-12 medium-4">
+        <div class="browse-card" data-equalizer-watch>
+          <span class="flickr">
+            <a href="project_detail.php">
+              <img src="../images/browse/maunakea.jpg">
+            </a>
+            <span class="caption">
+              <a href="https://www.flickr.com/photos/lookleft/8304648161/in/dateposted-public/">km</a>
+            </span>
+          </span>
+          <div class="text-contents">
+            <h4><small><em>In Youth</em></small></h4>
+            <h3><a href="project_detail.php">World Class Astronomy for Kids</a></h3>
+            <h4><small><em>To the Stars Foundation</em></small></h4>
+            <h5><small>Mauna Kea, Hawaii, USA</small></h5>
+            <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
+          </div> <!-- /text contents -->
+          <div class="row alignment-cell">
+            <div class="column small-4 browse-details">
+              $5500<br> 
+              goal
+            </div>
+            <div class="column small-4 browse-details">
+              78%<br>
+              funded
+            </div>
+            <div class="column small-4 browse-details last">
+              14 Days<br> 
+              to Go
+            </div>
+          </div> <!-- /goals, funded -->
         </div> <!-- /browse card -->
       </div> <!-- /card container -->
 
