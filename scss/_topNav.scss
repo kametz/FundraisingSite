@@ -1,14 +1,20 @@
 header {
-  z-index: 1000;
-  position:relative;
-  width:100%;
   background-color: $deepColor1;
-  @include display(flex);
-  @include flex-wrap(flex);
   -webkit-box-shadow: 0px 13px 32px -5px rgba(74,74,128,1);
   -moz-box-shadow: 0px 13px 32px -5px rgba(74,74,128,1);
   box-shadow: 0px 13px 32px -5px rgba(74,74,128,1);
+  position:relative;
+  width:100%;
+  z-index: 1000;
+  @include display(flex);
+  @include flex-wrap(flex);
 
+  nav {
+    order: -1;
+    @media screen and (min-width: $break_sm) {
+      order: 0;
+    }
+  }
 
   .menu-btn {
     color: $white;
@@ -28,47 +34,37 @@ header {
   }
 
   .logo {   
-      top: 13px; 
-      @media screen and (min-width: $break_sm) {
+    top: 13px; 
+    @media screen and (min-width: $break_sm) {
       top: 23px; 
     }   
   }
 
   .tagline {
+    h3 {
+      color: $white;
+      font-size: 1em;
+      font-weight: 300;
+      margin: 0;
+      text-transform: uppercase;
+      text-align: left;
+    }
     top: 18px;
     @media screen and (min-width: $break_sm) {
       top: 30px; 
     }   
-    h3 {
-      margin: 0;
-      font-size: 1em;
-      font-weight: 300;
-      color: $white;
-      text-transform: uppercase;
-      text-align: left;
-    }
-  }
-
-  nav {
-    order: -1;
-    a {
-      text-decoration: none;
-    }
-    @media screen and (min-width: $break_sm) {
-      order: 0;
-    }
   }
 
   .item {
-    border-left: 1px solid lighten($deepColor1, 30%);
     background-color: $deepColor1;
-    padding: 12px;
+    border-left: 1px solid lighten($deepColor1, 30%);
     height: 56px;
+    padding: 12px;
   }
 
   .item label {
-    font-size: .7em;
     font-family: $bodyFonts;
+    font-size: .7em;
     font-weight: 300;
   }
 
@@ -82,28 +78,27 @@ header {
 }
 
 .side-nav {
-  width: 240px;
+  background-color: $deepColor1;
+  background-color: rgba($deepColor1, .95);
+  color: $white;
   height: 100%;
-  z-index: 999;
-  position: absolute;
   padding-left: 10px;
+  position: absolute;
+  width: 240px;
+  z-index: 999;
   @include transform(translate(-250px, 0));
   @include transition(transform 0.3s ease);
-  background-color: $deepColor1;
-  background-color: rgba( $deepColor1, .98 );
-  color: $white;
 
-  .nav-list {
-    font-family: $headerFonts;
+  a {
+    color: $white;
   }
 
   h3 {
     margin-top: 20px;
   }
-  
-  a {
-    text-decoration: none;
-    color: $white;
+
+  .nav-list {
+    font-family: $headerFonts;
   }
   
   ul {

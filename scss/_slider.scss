@@ -1,25 +1,71 @@
 .flexslider {
-  padding: 0;
   border: 0;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  padding: 0;
 }
 
-.index {
-  .flexslider {
-    margin-top: 25px;
-    margin-bottom: 30px;
-  }
+.flexslider .row {
+  margin: 0;
+}
+
+.slides .column {
+  padding: 0;
 }
 
 .flex-control-paging li a {
   margin-top: -70px;
 }
 
-
 .detail {
-  .flex-direction-nav {
-    display: none !important;
-  }
   .flex-caption{
     left:0 !important;
   }
+
+  .flex-direction-nav {
+    display: none !important;
+  }
+}
+
+.slidercaption {
+  border-radius: 5px;
+  font-size: .9em;
+  left: 65%;
+  padding: 10px;
+  position: absolute;
+  top: 15px;
+  width: 34%;
+}
+
+.slidercaption.beach, .slidercaption.salad {
+    left: 3%;
+    top: 25px;
+  }
+
+.mp-photo-caption-container {
+  height: 100%;
+  padding: 0;
+}
+
+.mp-photo-caption {
+  padding: 20px;
+}
+
+.puppies {
+  background-color: $ltgreen;
+  background-color: rgba($ltgreen, 0.9);
+}
+
+.beach {
+  background-color: #9B505E;
+  background-color: rgba(155, 80, 94, 0.8);
+  color: $white;
+  a {
+    color: $white;
+  }
+}
+
+.salad {
+  background-color: #F2A574;
+  background-color: rgba(242, 165, 116, 0.8);
 }

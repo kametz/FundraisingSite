@@ -8,8 +8,7 @@
 
 <body>
 
-  <?php include("../includes/top_nav.php"); ?>
-  <?php include("../includes/signup/browse_signup.php"); ?>
+  <?php include("includes_si/top_nav_si.php"); ?>
 
   <main class="row browse">
     <div class="search-row">
@@ -355,7 +354,7 @@
     <div class="paginate">1,2,3,4,5...8</div>
   </main>
 
-  <?php include("../includes/footer.php"); ?>
+  <?php include("includes_si/footer_si.php"); ?>
 
 
 

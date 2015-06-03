@@ -9,7 +9,7 @@
   </div> <!--/tagline-->
 
   <nav class="icon-bar three-up top-nav">
-    <a class="item" href="http://www.kellymetzler.com/gifti/assets/browse.php">
+    <a class="item" href="http://www.kellymetzler.com/gifti/si/browse_si.php">
       <i class="fa fa-th-large sm"></i>
       <label>Browse Projects</label>
     </a>

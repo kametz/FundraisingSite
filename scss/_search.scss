@@ -4,87 +4,97 @@
 }
 
 .search {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: 25px 0;
-  font-size: 1em;
-  border-top: 1px solid black;
   border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  font-size: 1em;
+  margin: 25px 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
   @media screen and (min-width: $break_sm) {
     font-size: 1.6em;
   }
 }
 
 .search-submit {
-  padding-top: 17px;
-  padding-bottom: 10px;
-  margin: 25px 0;
-  height: 66px;
   border: 0;
+  border-bottom: 1px solid black;
   border-radius: 0;
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  @media screen and (min-width: $break_sm) {
-    height: 81px;
-  }
-}
-.category {
   height: 66px;
   margin: 25px 0;
-  background-color: $deepColor1;
-  color: $white;
-  font-size: .6em;
-  text-transform: uppercase;
+  padding-bottom: 10px;
+  padding-top: 17px;
   @media screen and (min-width: $break_sm) {
     height: 81px;
-    font-size: .8em;
-  }
-  a { 
-    color: $white;
-    text-decoration: none;
-  }
-  a:hover {
-    color: lighten($deepColor1,50);
-  }
-  ul {
-    padding: 0;
-    margin: 0;
-    padding-top: 18px;
-    @media screen and (min-width: $break_sm) {
-      padding-top: 22px;
-    }
-  }
-  ul li {
-    list-style-type: none;
-  }
-  ul ul {
-    position: absolute;
-    display: none;
-    background-color: $deepColor1;
-    z-index: 3000;
-    padding-left: 12px;
-    text-indent:-5px;
-    padding-right: 5px;
-    width: 100%;
-    left: 0;
-    li {
-      padding-top:8px;
-    }
-    li:last-of-type {
-      padding-bottom: 10px;
-    }
-  }
-  li:hover ul {
-    display: block;
   }
 }
-
 
 .index {
   .search-row {
     margin: 0 auto;
   }
-  .search, .search-submit {
+
+  .search, 
+  .search-submit {
     margin: 0;
+  }
+}
+
+.category {
+  background-color: $deepColor1;
+  color: $white;
+  font-size: .6em;
+  height: 66px;
+  margin: 25px 0;
+  text-transform: uppercase;
+
+  a { 
+    color: $white;
+  }
+
+  a:hover {
+    color: lighten($deepColor1,50);
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 18px;
+    @media screen and (min-width: $break_sm) {
+      padding-top: 22px;
+    }
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  ul ul {
+    display: none;
+    background-color: $deepColor1;
+    left: 0;
+    padding-left: 12px;
+    padding-right: 5px;
+    position: absolute;
+    text-indent:-5px;
+    width: 100%;
+    z-index: 3000;
+
+    li {
+      padding-top: 8px;
+    }
+
+    li:last-of-type {
+      padding-bottom: 10px;
+    }
+  }
+
+  li:hover ul {
+    display: block;
+  }
+
+  @media screen and (min-width: $break_sm) {
+    font-size: .8em;
+    height: 81px;
   }
 }

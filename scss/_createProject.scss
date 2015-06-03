@@ -1,13 +1,17 @@
 .create-project {
+  h4 {
+    margin-top: 5px;
+  }
+
   h5 {
-    text-align: center;
-    border-top: 1px solid $ltgray;
     border-bottom: 1px solid $ltgray;
+    border-top: 1px solid $ltgray;
+    text-align: center;
   }
 
   .project_title {
-    width: 100%;
     margin-bottom: 15px;
+    width: 100%;
   }
 
   img {
@@ -18,34 +22,33 @@
     height: 200px;
   }
 
-  h4 {
-    margin-top: 5px;
-  }
-
   .create-category {
     display: inline-block;
-    width: auto;
     margin-right: 4px;
     padding-right: 8px;
+    width: auto;
   }
 
   .input-box { 
     position: relative; 
+    
     input { 
       display: block;  
       padding: 10px 10px 10px 20px; 
     }
+    
     .unit { 
-      position: absolute; 
       display: block; 
       left: 5px; 
+      position: absolute; 
       top: 7px; 
-      z-index: 9; }
+      z-index: 9; 
+    }
   }
 
   #success {
-    display: none;
     background-color: $white;
+    display: none;
     height: 800px;
     max-width: 1000px;
     position: absolute;
@@ -58,6 +61,5 @@
     margin: 50px auto;
     position: relative;
   }
-  
 }
 

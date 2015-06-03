@@ -1,18 +1,20 @@
 footer {
   background-color: $deepColor1;
   color: $white;
-  z-index: 997;
   position:relative;
+  z-index: 997;
+
   .social {
     display: none;
     @media screen and (min-width: $break_sm) {
       display: initial;
     }
   }
+
   a {
     color: $white;
-    text-decoration: none;
   }
+  
   ul {
     list-style-type: none;
   }

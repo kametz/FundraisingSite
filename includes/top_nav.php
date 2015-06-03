@@ -23,8 +23,6 @@
     </a>
   </nav>
 
-  <?php include("http://www.kellymetzler.com/gifti/includes/signup.php"); ?>
-
 </header>
 
 <div class="side-nav">

@@ -18,7 +18,7 @@
       </div>  
     </div><!--/promtions row-->
       
-    <!-- Main Photo -->
+        <!-- Main Photo -->
     <div class="row">
       <div class="column small-12 flexslider">
         <!-- The equalizer doesn't work correctly if the page
@@ -27,12 +27,18 @@
         actively changing browser size is limited, I'm going to leave it.  -->
         <ul class="slides">
           <li>
-            <div class="row" data-equalizer>
-              <div class="column small-12 medium-8" data-equalizer-watch data-equalizer-mq="medium-up">
+            <div class="row">
+              <div class="column small-12">
                 <img src="../images/homepage/lgpuppy.jpg" title="Two puppies" />
+                <div class="slidercaption hide-for-small-only puppies">
+                  <h3>Help Puppies Learn to Read!</h3>
+                  <p>All over the world, puppies are suffering.  Suffering from their lack of reading skills.
+                   Jobs: denied.  Relationships: failed.  Puppy literacy is everyone's responsibility.</p>
+                  <p><a href="assets/project_detail.php">Learn more &raquo; </a></p>
+                </div>
               </div>
-              <div class="column small-12 medium-4 mp-photo-caption-container" data-equalizer-watch>
-                <div class="mp-photo-caption">
+              <div class="column small-12 show-for-small-only mp-photo-caption-container">
+                <div class="mp-photo-caption puppies">
                   <h3>Help Puppies Learn to Read!</h3>
                   <p>All over the world, puppies are suffering.  Suffering from their lack of reading skills.
                    Jobs: denied.  Relationships: failed.  Puppy literacy is everyone's responsibility.</p>
@@ -42,11 +48,17 @@
             </div>
           </li>
           <li>
-            <div class="row" data-equalizer>
-              <div class="column small-12 medium-8" data-equalizer-watch data-equalizer-mq="medium-up">
+            <div class="row">
+              <div class="column small-12">
                 <img src="../images/homepage/beach.jpg" title="Kids at beach" />
+                <div class="slidercaption hide-for-small-only beach">
+                  <h3>Every Day's a Beach</h3>
+                  <p>We have the van.  We have the kids.  What we need is a bit of cash to buy gas and lunch.  
+                    Help us make a special day for special kids at Dillon Beach?</p>
+                  <p><a href="assets/project_detail.php">Learn more &raquo; </a></p>
+                </div>
               </div>
-              <div class="column small-12 medium-4 mp-photo-caption-container beach" data-equalizer-watch>
+              <div class="column small-12 show-for-small-only mp-photo-caption-container beach">
                 <div class="mp-photo-caption">
                   <h3>Every Day's a Beach</h3>
                   <p>We have the van.  We have the kids.  What we need is a bit of cash to buy gas and lunch.  
@@ -57,11 +69,18 @@
             </div>
           </li>
           <li>
-            <div class="row" data-equalizer>
-              <div class="column small-12 medium-8" data-equalizer-watch data-equalizer-mq="medium-up">
+            <div class="row">
+              <div class="column small-12 ">
                 <img src="../images/homepage/salad.jpg" title="Woman and salad" />
+                <div class="slidercaption hide-for-small-only salad">
+                  <h3>Eat Your Colors</h3>
+                  <p>Eating lots of vegetables: easier said than done.  We're making a 
+                     veggie case to make eating fresh food fun.  
+                    You'll love eating your greens&mdash;and your yellows, oranges, and reds.</p>
+                  <p><a href="assets/project_detail.php">Learn more &raquo; </a></p>
+                </div>
               </div>
-              <div class="column small-12 medium-4 mp-photo-caption-container salad" data-equalizer-watch>
+              <div class="column small-12 show-for-small-only mp-photo-caption-container salad">
                 <div class="mp-photo-caption">
                   <h3>Eat Your Colors</h3>
                   <p>Eating lots of vegetables: easier said than done.  We're making a 

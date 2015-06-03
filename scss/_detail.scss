@@ -2,22 +2,27 @@
   .donate {
     text-align: center;
   }
+
   .project-description a {
     text-decoration: none;
   }
+
   .comments-rule {
     border-top: 1px dotted $deepColor1;
     margin: 20px auto;
   }
+
   p {
     margin-top: 0;
   }
+
   .title-block {
     margin-top: 25px;
   }
+
   .project-metrics {
-    margin-top: 50px; 
     font-size: 1.2em;
+    margin-top: 50px; 
     text-align: center;
   }
 }

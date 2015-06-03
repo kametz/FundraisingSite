@@ -1,10 +1,9 @@
 @import "bourbon";
 
-
 $deepColor1: #4A4A80;
-$white: #ffffff;
-$ltgray: #eaeaea;
+$ltgray: #EAEAEA;
 $ltgreen: #C5E66E;
+$white: #FFF;
 
 $headerFonts: 'museo-slab', sans-serif;
 $bodyFonts:  'sofia-pro', sans-serif;
@@ -12,7 +11,12 @@ $header2: 'museo-slab', serif;
   
 $break-sm: 641px;
 
-h1, h2, h3, h4, h5, h6 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
   font-family: $headerFonts;
   margin: 5px 0;
 }
@@ -21,23 +25,31 @@ h2 {
   margin-top: 25px;
 }
 
-input, textarea, select {
-  width: 100%;
-  display: inline-block;
-  margin-bottom: 10px;
+a {
+  color: $deepColor1;
+  text-decoration: none;
 }
 
-html, body {
+input, 
+textarea, 
+select {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+html, 
+body {
+  background-color: $white;
   font-family: $bodyFonts;
   font-weight: 300;
   height: 100%;
   width: 100%;
-  background-color: $white;
 }
 
 .main {
-  z-index: -3;
   margin: 10px;
+  z-index: -3;
 }
 
 @import 'topNav';
