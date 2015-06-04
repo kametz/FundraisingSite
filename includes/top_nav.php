@@ -9,15 +9,15 @@
   </div> <!--/tagline-->
 
   <nav class="icon-bar three-up top-nav">
-    <a class="item" href="http://www.kellymetzler.com/gifti/assets/browse.php">
+    <a class="item" role="button" tabindex="0" href="http://www.kellymetzler.com/gifti/assets/browse.php">
       <i class="fa fa-th-large sm"></i>
       <label>Browse Projects</label>
     </a>
-    <a class="item" href="http://www.kellymetzler.com/gifti/assets/howto.php">
+    <a class="item" role="button" tabindex="0" href="http://www.kellymetzler.com/gifti/assets/howto.php">
       <i class="fa fa-pencil sm"></i>
       <label>Create Project</label>
     </a>
-    <a href="#signup-modal" class="item">
+    <a class="item" role="button" tabindex="0" href="#signup-modal" >
       <i class="fa fa-sign-in sm"></i>
       <label>Sign Up</label>
     </a>

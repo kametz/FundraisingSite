@@ -9,21 +9,33 @@
   </div> <!--/tagline-->
 
   <nav class="icon-bar three-up top-nav">
-    <a class="item" href="http://www.kellymetzler.com/gifti/si/browse_si.php">
+    <a class="item" role="button" tabindex="0" href="http://www.kellymetzler.com/gifti/si/browse_si.php">
       <i class="fa fa-th-large sm"></i>
       <label>Browse Projects</label>
     </a>
-    <a class="item" href="http://www.kellymetzler.com/gifti/assets/howto.php">
+    <a class="item" role="button" tabindex="0" href="http://www.kellymetzler.com/gifti/si/howto_si.php">
       <i class="fa fa-pencil sm"></i>
       <label>Create Project</label>
     </a>
-    <a class="item">
+    <a class="item usernav" role="button" tabindex="0" href="#">
       <i class="fa fa-user sm"></i>
       <label>Hi Andy!</label>
     </a>
   </nav>
+    <div class="usernav_links">
+      <ul>
+        <li><a href="#">This is a link</a></li>
+        <li><a href="#">This is another</a></li>
+        <li><i class="fa fa-sign-out fa-fw"></i><a href="http://www.kellymetzler.com/gifti/index.php">
+          Log Out
+        </a></li>
+      </ul>
+    </div>
+
 
 </header>
+
+<!--User Nav -->
 
 <div class="side-nav">
   <h3>Menu</h3>

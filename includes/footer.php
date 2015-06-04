@@ -3,7 +3,7 @@
     <ul>
       <li><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li>
       <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-      <li><a href="#"><i class="fa fa-google-plus-square"></i> Google +</a></li>
+      <li><a href="#"><i class="fa fa-google-plus-square"></i> Google+</a></li>
       <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
       <li><a href="#"><i class="fa fa-tumblr-square"></i> Tumblr</a></li>
     </ul>

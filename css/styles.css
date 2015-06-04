@@ -133,6 +133,9 @@ header {
     .side-nav {
       visibility: hidden; } }
 
+.user_dropdown {
+  display: inline-block; }
+
 .open {
   -webkit-transform: translate(0, 0);
   -moz-transform: translate(0, 0);
@@ -140,10 +143,35 @@ header {
   -o-transform: translate(0, 0);
   transform: translate(0, 0); }
 
+.usernav_links {
+  display: none;
+  background-color: #4A4A80;
+  border-top: 1px solid #9d9dc6;
+  color: #FFF;
+  margin: 0;
+  padding: 12px;
+  position: absolute;
+  right: 0;
+  top: 56px;
+  width: 19.4%; }
+  .usernav_links a {
+    color: #FFF; }
+
+a:focus {
+  outline: none; }
+
+.show_usernav {
+  display: initial; }
+
+.usernav_links ul {
+  list-style-type: none;
+  padding: 0; }
+
 .modalDialog {
   background-color: #4A4A80;
   background-color: rgba(74, 74, 128, 0.9);
   bottom: 0;
+  display: none;
   left: 0;
   margin: 0 auto;
   opacity: 0;
@@ -169,6 +197,7 @@ header {
       overflow-y: hidden; } }
 
 .modalDialog:target {
+  display: initial;
   opacity: 1;
   pointer-events: auto; }
 

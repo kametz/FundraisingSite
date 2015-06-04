@@ -363,6 +363,7 @@
   <script src="../js/nav.js"></script>
   <script src="../js/libraries/foundation.js"></script>
   <script src="../js/libraries/foundation.equalizer.js"></script>
+  <script src="../js/libraries/foundation.dropdown.js"></script>
 
   <script>
     $(document).foundation();
