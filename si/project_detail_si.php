@@ -11,8 +11,7 @@
 
 <body>
 
-  <?php include("../includes/top_nav.php"); ?>
-  <?php include("../includes/signup/project_detail_signup.php"); ?>
+  <?php include("includes_si/top_nav_si.php"); ?>
 
   <main class="detail">
     <div class="row">
@@ -96,7 +95,7 @@
     </div>
   </main>
 
-  <?php include("../includes/footer.php"); ?>
+  <?php include("includes_si/footer_si.php"); ?>
 
 
 

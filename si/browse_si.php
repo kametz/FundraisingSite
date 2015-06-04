@@ -46,7 +46,7 @@
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <a href="project_detail.php">
+            <a href="project_detail_si.php">
               <img src="../images/browse/puppy.jpg">
             </a>
             <span class="caption">
@@ -55,7 +55,7 @@
           </span>
           <div class="text-contents">
             <h4><small><em>In Animals and Literacy</em></small></h4>
-            <h3><a href="project_detail.php">Help Puppies Learn To Read</a></h3>
+            <h3><a href="project_detail_si.php">Help Puppies Learn To Read</a></h3>
             <h4><small><em>Puppy Literacy Association</em></small></h4>
             <h5><small>Lancaster, Minnesota, USA</small></h5>
             <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
@@ -80,7 +80,7 @@
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <a href="project_detail.php">
+            <a href="project_detail_si.php">
               <img src="../images/browse/mountain.jpg">
             </a>
             <span class="caption">
@@ -89,7 +89,7 @@
           </span>
           <div class="text-contents">
             <h4><small><em>In Environment</em></small></h4>
-            <h3><a href="project_detail.php">Demand More Snow!</a></h3>
+            <h3><a href="project_detail_si.php">Demand More Snow!</a></h3>
             <h4><small><em>H2whoah</em></small></h4>
             <h5><small>Elko, Nevada, USA</small></h5>
             <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
@@ -114,7 +114,7 @@
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <a href="project_detail.php">
+            <a href="project_detail_si.php">
               <img src="../images/browse/kidsinparis.jpg">
             </a>
             <span class="caption">
@@ -123,7 +123,7 @@
           </span>
           <div class="text-contents">
             <h4><small><em>In Culture and Youth</em></small></h4>
-            <h3><a href="project_detail.php">From Paris to Paris</a></h3>
+            <h3><a href="project_detail_si.php">From Paris to Paris</a></h3>
             <h4><small><em>Ontario Public Schools</em></small></h4>
             <h5><small>Paris, Ontario, Canada</small></h5>
             <p>Lorem ipsum dolor sit amet, ribus assumenda rem id ab. nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
@@ -148,7 +148,7 @@
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <a href="project_detail.php">
+            <a href="project_detail_si.php">
               <img src="../images/browse/maunakea.jpg">
             </a>
             <span class="caption">
@@ -157,7 +157,7 @@
           </span>
           <div class="text-contents">
             <h4><small><em>In Youth</em></small></h4>
-            <h3><a href="project_detail.php">World Class Astronomy for Kids</a></h3>
+            <h3><a href="project_detail_si.php">World Class Astronomy for Kids</a></h3>
             <h4><small><em>To the Stars Foundation</em></small></h4>
             <h5><small>Mauna Kea, Hawaii, USA</small></h5>
             <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
@@ -182,7 +182,7 @@
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <a href="project_detail.php">
+            <a href="project_detail_si.php">
               <img src="../images/browse/maunakea.jpg">
             </a>
             <span class="caption">
@@ -191,7 +191,7 @@
           </span>
           <div class="text-contents">
             <h4><small><em>In Youth</em></small></h4>
-            <h3><a href="project_detail.php">World Class Astronomy for Kids</a></h3>
+            <h3><a href="project_detail_si.php">World Class Astronomy for Kids</a></h3>
             <h4><small><em>To the Stars Foundation</em></small></h4>
             <h5><small>Mauna Kea, Hawaii, USA</small></h5>
             <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
@@ -216,7 +216,7 @@
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <a href="project_detail.php">
+            <a href="project_detail_si.php">
               <img src="../images/browse/maunakea.jpg">
             </a>
             <span class="caption">
@@ -225,7 +225,7 @@
           </span>
           <div class="text-contents">
             <h4><small><em>In Youth</em></small></h4>
-            <h3><a href="project_detail.php">World Class Astronomy for Kids</a></h3>
+            <h3><a href="project_detail_si.php">World Class Astronomy for Kids</a></h3>
             <h4><small><em>To the Stars Foundation</em></small></h4>
             <h5><small>Mauna Kea, Hawaii, USA</small></h5>
             <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
@@ -250,7 +250,7 @@
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <a href="project_detail.php">
+            <a href="project_detail_si.php">
               <img src="../images/browse/maunakea.jpg">
             </a>
             <span class="caption">
@@ -259,7 +259,7 @@
           </span>
           <div class="text-contents">
             <h4><small><em>In Youth</em></small></h4>
-            <h3><a href="project_detail.php">World Class Astronomy for Kids</a></h3>
+            <h3><a href="project_detail_si.php">World Class Astronomy for Kids</a></h3>
             <h4><small><em>To the Stars Foundation</em></small></h4>
             <h5><small>Mauna Kea, Hawaii, USA</small></h5>
             <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
@@ -284,7 +284,7 @@
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <a href="project_detail.php">
+            <a href="project_detail_si.php">
               <img src="../images/browse/maunakea.jpg">
             </a>
             <span class="caption">
@@ -293,7 +293,7 @@
           </span>
           <div class="text-contents">
             <h4><small><em>In Youth</em></small></h4>
-            <h3><a href="project_detail.php">World Class Astronomy for Kids</a></h3>
+            <h3><a href="project_detail_si.php">World Class Astronomy for Kids</a></h3>
             <h4><small><em>To the Stars Foundation</em></small></h4>
             <h5><small>Mauna Kea, Hawaii, USA</small></h5>
             <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>
@@ -318,7 +318,7 @@
       <div class="card-container column small-12 medium-4">
         <div class="browse-card" data-equalizer-watch>
           <span class="flickr">
-            <a href="project_detail.php">
+            <a href="project_detail_si.php">
               <img src="../images/browse/maunakea.jpg">
             </a>
             <span class="caption">
@@ -327,7 +327,7 @@
           </span>
           <div class="text-contents">
             <h4><small><em>In Youth</em></small></h4>
-            <h3><a href="project_detail.php">World Class Astronomy for Kids</a></h3>
+            <h3><a href="project_detail_si.php">World Class Astronomy for Kids</a></h3>
             <h4><small><em>To the Stars Foundation</em></small></h4>
             <h5><small>Mauna Kea, Hawaii, USA</small></h5>
             <p>Lorem ipsum dolor sit amet, nam incidunt voluptas ha ha ha cumque. Rem, numquam...</p>

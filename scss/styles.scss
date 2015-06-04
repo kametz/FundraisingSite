@@ -5,6 +5,8 @@ $ltgray: #EAEAEA;
 $ltgreen: #C5E66E;
 $white: #FFF;
 
+$borderRadius: 3px;
+
 $headerFonts: 'museo-slab', sans-serif;
 $bodyFonts:  'sofia-pro', sans-serif;
 $header2: 'museo-slab', serif;
@@ -25,6 +27,7 @@ h5,
 h6 {
   font-family: $headerFonts;
   margin: 5px 0;
+  color: $deepColor1;
 }
 
 h2 {

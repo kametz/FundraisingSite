@@ -8,7 +8,8 @@ h4,
 h5,
 h6 {
   font-family: "museo-slab", sans-serif;
-  margin: 5px 0; }
+  margin: 5px 0;
+  color: #4A4A80; }
 
 h2 {
   margin-top: 25px; }
@@ -357,7 +358,7 @@ footer {
   display: none !important; }
 
 .slidercaption {
-  border-radius: 5px;
+  border-radius: 3px;
   font-size: .9em;
   left: 65%;
   padding: 10px;
@@ -518,7 +519,7 @@ footer {
   margin-bottom: 15px;
   width: 100%; }
 .create-project img {
-  border-radius: 5px; }
+  border-radius: 3px; }
 .create-project textarea {
   height: 200px; }
 .create-project .create-category {
@@ -552,7 +553,7 @@ footer {
 
 .cart .project_wrapper {
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 15px; }
 .cart .donation {
   text-align: right; }
@@ -561,6 +562,7 @@ footer {
   height: 2em;
   list-style-type: none;
   margin-bottom: 0;
+  margin-top: 30px;
   padding: 0; }
 
 .profile_nav li {
@@ -572,12 +574,12 @@ footer {
   background-color: #ccc;
   border: 0.06em solid #000;
   border-bottom: 0;
-  -webkit-border-top-left-radius: 5px;
-  -webkit-border-top-right-radius: 5px;
-  -moz-border-radius-topleft: 5px;
-  -moz-border-radius-topright: 5px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
   color: #000;
   display: block;
   padding: 0 1em;
@@ -598,15 +600,28 @@ footer {
 /* requires extra specificity to override .row .row */
 .row .user_info {
   border: 1px solid #EAEAEA;
-  padding: 20px 30px;
   margin: -8px 0 15px 0; }
 
-.profile_photo div {
-  margin: 0 auto; }
-  .profile_photo div button {
-    width: 80%;
-    margin: 10px 10%; }
-  .profile_photo div div {
-    border: 1px solid #EAEAEA;
-    max-width: 350px;
-    height: 200px; }
+.profile_photo {
+  background-color: #EAEAEA;
+  margin-top: -8px;
+  padding: 20px 30px; }
+  .profile_photo div {
+    margin: 0 auto; }
+    .profile_photo div div {
+      border: 1px solid #EAEAEA;
+      max-width: 350px; }
+  .profile_photo p {
+    padding-left: 10px; }
+  .profile_photo input[type="submit"] {
+    background-color: #FFF;
+    margin: 10px 20%;
+    text-align: center;
+    width: 60%; }
+
+.profile_comments {
+  padding: 20px 30px; }
+  .profile_comments h3 {
+    margin-bottom: 15px; }
+  .profile_comments p {
+    padding-left: 10px; }
