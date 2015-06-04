@@ -10,6 +10,7 @@
 <body>
 
   <?php include("../includes/top_nav.php"); ?>
+  <?php include("../includes/signup/howto_signup.php"); ?>
 
   <main class="row howto">
     <div class="column small-12">

@@ -24,8 +24,9 @@
   </nav>
     <div class="usernav_links">
       <ul>
-        <li><a href="#">This is a link</a></li>
-        <li><a href="#">This is another</a></li>
+        <li><a href="user_profile_si.php">My Profile</a></li>
+        <li><a href="user_donations_si.php">My Donations</a></li>
+        <li><a href="user_projects_si.php">My Projects</a></li>
         <li><i class="fa fa-sign-out fa-fw"></i><a href="http://www.kellymetzler.com/gifti/index.php">
           Log Out
         </a></li>

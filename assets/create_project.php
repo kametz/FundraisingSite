@@ -11,6 +11,7 @@
 <body>
 
   <?php include("../includes/top_nav.php"); ?>
+  <?php include("../includes/signup/create_project_signup.php"); ?>
 
   <main class="row create-project">
     <div class="column small-12">

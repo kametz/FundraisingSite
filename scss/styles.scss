@@ -11,6 +11,12 @@ $header2: 'museo-slab', serif;
   
 $break-sm: 641px;
 
+.row .row {
+  margin: 0;
+}
+
+
+
 h1, 
 h2, 
 h3, 
@@ -64,6 +70,7 @@ body {
 @import 'howto';
 @import 'createProject';
 @import 'cart';
+@import 'userProfile'
 
 
 
